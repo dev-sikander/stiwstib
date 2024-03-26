@@ -4,14 +4,14 @@ import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
 import styles from "../../styles/Nothing.module.css";
 //images
-import banImg1 from "media/images/nothing/map.png";
+import banImg1 from "/public/images/nothing/map.png";
 //
-import news1 from "media/images/nothing/1.png";
-import news2 from "media/images/nothing/1.png";
-import news3 from "media/images/nothing/1.png";
-import news4 from "media/images/nothing/1.png";
-import news5 from "media/images/nothing/1.png";
-import verified from "media/newHomePage/images/pageLp6/verified.png";
+import news1 from "/public/images/nothing/1.png";
+import news2 from "/public/images/nothing/1.png";
+import news3 from "/public/images/nothing/1.png";
+import news4 from "/public/images/nothing/1.png";
+import news5 from "/public/images/nothing/1.png";
+import verified from "/public/newHomePage/images/pageLp6/verified.png";
 //
 import { register } from "swiper/element/bundle";
 import "swiper/css/effect-coverflow";

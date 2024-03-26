@@ -3,8 +3,8 @@ import Link from "next/link";
 import Image from "next/image";
 import styles from "../../../styles/NewIndexBanner.module.css";
 //
-import next from "media/homeslideimg/next.webp";
-import prev from "media/homeslideimg/prev.webp";
+import next from "/public/homeslideimg/next.webp";
+import prev from "/public/homeslideimg/prev.webp";
 
 const itemData = [
     {
@@ -16,7 +16,6 @@ const itemData = [
 const NewIndex2Banner = () => {
 
     const sliderRef = React.useRef(null);
-
     const activate = (e) => {
         const items = sliderRef.current.querySelectorAll('.item');
 

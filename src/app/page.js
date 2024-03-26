@@ -1,5 +1,4 @@
 "use client"
-
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import NewHeaderDesign from "../components/NewHeader";
@@ -20,20 +19,18 @@ import Faqs from "../components/new-home-page-fy/NewhomeFaqs.js";
 import HomeLocation from "../components/HomeLocation"
 import Footer from "../components/Footer"
 //Images
-import customios from "media/newHomePage/images/mobileimages/newMaintain1.png";
-import iphoneapp from "media/newHomePage/images/mobileimages/newMaintain2.png";
-import applewatch from "media/newHomePage/images/mobileimages/newMaintain3.png";
-import appletvappdevelopment from "media/newHomePage/images/mobileimages/newMaintain4.png";
-import iphoneappdesigning from "media/newHomePage/images/mobileimages/newMaintain5.png";
-import hybridiphone from "media/newHomePage/images/mobileimages/newMaintain6.png";
-import appSeven from "media/newHomePage/images/mobileimages/newMaintain7.png";
-import appEight from "media/newHomePage/images/mobileimages/newMaintain8.png";
-
+import customios from "/public/newHomePage/images/mobileimages/newMaintain1.png";
+import iphoneapp from "/public/newHomePage/images/mobileimages/newMaintain2.png";
+import applewatch from "/public/newHomePage/images/mobileimages/newMaintain3.png";
+import appletvappdevelopment from "/public/newHomePage/images/mobileimages/newMaintain4.png";
+import iphoneappdesigning from "/public/newHomePage/images/mobileimages/newMaintain5.png";
+import hybridiphone from "/public/newHomePage/images/mobileimages/newMaintain6.png";
+import appSeven from "/public/newHomePage/images/mobileimages/newMaintain7.png";
+import appEight from "/public/newHomePage/images/mobileimages/newMaintain8.png";
 // slick slider
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
 // CSS
 import styles from "../../styles/new-home-page-fy.module.css"
 
@@ -54,7 +51,7 @@ export default function Home() {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
-  // slider 
+  // ===================================
   var awardslogo = {
     dots: false,
     arrows: false,
@@ -95,7 +92,7 @@ export default function Home() {
       },
     ],
   };
-  // Maintain Data
+  // ===================================
   const severcedata = [
     {
       classlayout: {
@@ -167,12 +164,12 @@ export default function Home() {
       ],
     },
   ];
-  //======================
+  // ===================================
   const [showFolds, setShowFolds] = useState(false);
   useEffect(() => {
     const timeout = setTimeout(() => {
       setShowFolds(true);
-    }, 3000);
+    }, 2000);
     return () => clearTimeout(timeout);
   }, []);
   return (
@@ -181,7 +178,7 @@ export default function Home() {
       <NewIndexBanner />
       {showFolds &&
         <>
-          {/* Section */}
+          {/* AwardsFold Start */}
           <section>
             <div className={`${styles.awardsFold}`}>
               <div className="container-fluid px-0">
@@ -339,7 +336,7 @@ export default function Home() {
               </div>
             </div>
           </section>
-          {/* Section */}
+          {/* AwardsFold End */}
           <NewHomeWho />
           <NewHomeWhat />
           <Industry industry="industryclass" />
