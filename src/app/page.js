@@ -1,6 +1,13 @@
 "use client"
 import { useEffect, useState } from "react";
 import Image from "next/image";
+// slick slider
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+// CSS
+import styles from "../../styles/new-home-page-fy.module.css"
+// Components
 import NewHeaderDesign from "../components/NewHeader";
 import NewIndexBanner from "../components/new-home-page-fy/NewIndexBanner.js";
 import NewHomeWho from "../components/new-home-page-fy/NewHomeWho.js";
@@ -27,12 +34,6 @@ import iphoneappdesigning from "/public/newHomePage/images/mobileimages/newMaint
 import hybridiphone from "/public/newHomePage/images/mobileimages/newMaintain6.png";
 import appSeven from "/public/newHomePage/images/mobileimages/newMaintain7.png";
 import appEight from "/public/newHomePage/images/mobileimages/newMaintain8.png";
-// slick slider
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-// CSS
-import styles from "../../styles/new-home-page-fy.module.css"
 
 export default function Home() {
   // ===================================
