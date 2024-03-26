@@ -5,29 +5,29 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import styles from '../../styles/Footerlp.module.css'
 //images
-import call from 'media/images/icons/phone-icon.webp'
-import mail from 'media/images/icons/email-icon.webp'
-import fb from 'media/images/icons//fb-icon.webp'
-import inta from 'media/images/icons/insta-icon.webp'
-import tweet from 'media/images/icons/twitter-icon.webp'
-import linkedin from 'media/images/icons/linkedin-icon.webp'
-import youtube from 'media/images/icons/youtube-icon.webp'
+import call from '/public/images/icons/phone-icon.webp'
+import mail from '/public/images/icons/email-icon.webp'
+import fb from '/public/images/icons//fb-icon.webp'
+import inta from '/public/images/icons/insta-icon.webp'
+import tweet from '/public/images/icons/twitter-icon.webp'
+import linkedin from '/public/images/icons/linkedin-icon.webp'
+import youtube from '/public/images/icons/youtube-icon.webp'
 //
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 //
-import icon1 from 'media/images/awards/award1.png'
-import icon2 from 'media/images/awards/award2.png'
-import icon3 from 'media/images/awards/award3.png'
-import icon4 from 'media/images/awards/award4.png'
-import icon5 from 'media/images/awards/award5.png'
-import icon6 from 'media/images/awards/award6.png'
-import icon7 from 'media/images/awards/award7.png'
-import icon8 from 'media/images/awards/award8.png'
-import icon9 from 'media/images/awards/award9.png'
-import icon10 from 'media/images/awards/award10.png'
-import icon11 from 'media/images/awards/award11.png'
+import icon1 from '/public/images/awards/award1.png'
+import icon2 from '/public/images/awards/award2.png'
+import icon3 from '/public/images/awards/award3.png'
+import icon4 from '/public/images/awards/award4.png'
+import icon5 from '/public/images/awards/award5.png'
+import icon6 from '/public/images/awards/award6.png'
+import icon7 from '/public/images/awards/award7.png'
+import icon8 from '/public/images/awards/award8.png'
+import icon9 from '/public/images/awards/award9.png'
+import icon10 from '/public/images/awards/award10.png'
+import icon11 from '/public/images/awards/award11.png'
 
 
 const Footerlp = () => {
