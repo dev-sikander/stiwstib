@@ -7,8 +7,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 // CSS
 import styles from "../../styles/new-home-page-fy.module.css"
-// Components
-import NewHeaderDesign from "../components/NewHeader";
+// Components 
 import NewIndexBanner from "../components/new-home-page-fy/NewIndexBanner.js";
 import NewHomeWho from "../components/new-home-page-fy/NewHomeWho.js";
 import NewHomeWhat from "../components/new-home-page-fy/NewHomeWhat.js";
@@ -23,8 +22,7 @@ import Globallplp6 from "../components/new-home-page-fy/Globallplp6.js";
 import LpChoose from "../components/new-home-page-fy/LpChoose.js";
 import Formnewlp from "../components/new-home-page-fy/Formnewlp.js";
 import Faqs from "../components/new-home-page-fy/NewhomeFaqs.js";
-import HomeLocation from "../components/HomeLocation"
-import Footer from "../components/Footer"
+import HomeLocation from "../components/HomeLocation" 
 //Images
 import customios from "/public/newHomePage/images/mobileimages/newMaintain1.png";
 import iphoneapp from "/public/newHomePage/images/mobileimages/newMaintain2.png";
@@ -175,7 +173,6 @@ export default function Home() {
   }, []);
   return (
     <>
-      <NewHeaderDesign />
       <NewIndexBanner />
       {showFolds &&
         <>
@@ -369,7 +366,6 @@ export default function Home() {
           <HomeLocation />
         </>
       }
-      <Footer />
     </>
   );
 }
