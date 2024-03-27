@@ -2,14 +2,15 @@ import React, { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
-import { Row, Col } from "react-bootstrap";
+import { Row, Col, Modal } from "react-bootstrap";
 import styles from "../../styles/NewHeader.module.css";
 //
 import { FaAngleDown } from "react-icons/fa";
 import { RiArrowDropRightLine } from "react-icons/ri";
+import { RxCross2 } from "react-icons/rx";
 //
 import ActiveLink from "./ActiveLink";
-// import Bitswitspopup from "../components/Bitswitspopup";
+import Bitswitspopup from "../components/Bitswitspopup";
 // images
 import logo from "/public/images/icons/footerlogo.webp";
 import discount from "/public/headerbits/discount.jpg";
@@ -67,7 +68,6 @@ import ready from "/public/images/case-studies/case-ready/banner-img.png"
 const HeaderNewDesign = () => {
   const router = useRouter();
   const [isSliderActive, setIsSliderActive] = useState(true);
-
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth >= 991) {
@@ -85,13 +85,10 @@ const HeaderNewDesign = () => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
-
   const opnen = () => {
     window.open("../companyprofile.pdf", "_blank");
   };
-
   const [show, setShow] = useState(false);
-
   function modal(e) {
     e.preventDefault();
     setShow(true);
@@ -99,21 +96,16 @@ const HeaderNewDesign = () => {
   function closemodal() {
     setShow(false);
   }
-
   const [isHovered, setIsHovered] = useState("");
-
   function fun1(vale) {
     setIsHovered(vale);
   }
-
   function fun2(vale1) {
     setIsHovered(vale1);
   }
-
   function handleClickproduct(val5) {
     setIsHovered1(val5);
   }
-
   const [isHovered1, setIsHovered1] = useState("");
   const [toggleCloseMeg, isToggleCloseMeg] = useState(false);
   function fun11(vale) {
@@ -122,50 +114,39 @@ const HeaderNewDesign = () => {
   function fun21(vale1) {
     setIsHovered1(vale1);
   }
-
   const [isHovered2, setIsHovered2] = useState("");
-
   function funserve(vale) {
     setIsHovered2(vale);
   }
   function funserve2(vale1) {
     setIsHovered2(vale1);
   }
-
   const [isHovered3, setIsHovered3] = useState("");
-
   function funcom(vale) {
     setIsHovered3(vale);
   }
   function funcom2(vale1) {
     setIsHovered3(vale1);
   }
-
   const [isHovered4, setIsHovered4] = useState("");
-
   function funwork(vale) {
     setIsHovered4(vale);
   }
   function funwork2(vale1) {
     setIsHovered4(vale1);
   }
-
   const [isActive, setIsActive] = useState(false);
-
   const handleMenu = () => {
     setIsActive(!isActive);
   };
-
   const [activeTab1, setActiveTab1] = useState("tab1");
   function fun1(tabs1) {
     setActiveTab1(tabs1);
   }
-
   const [activeTab2, setActiveTab2] = useState("tab1");
   function fun2(tabs1) {
     setActiveTab2(tabs1);
   }
-
   useEffect(() => {
     setTimeout(() => {
       setIsHovered1("secImage11");
@@ -173,7 +154,6 @@ const HeaderNewDesign = () => {
       setIsHovered3("secImage2");
     }, 1000);
   }, [toggleCloseMeg, router]);
-
 
   return (
     <>
@@ -1613,7 +1593,7 @@ const HeaderNewDesign = () => {
           </div>
         </nav>
 
-        {/* <Modal show={show} onHide={closemodal} className={styles.modalnew}>
+        <Modal show={show} onHide={closemodal} className={styles.modalnew}>
           <Modal.Body>
             {" "}
             <Bitswitspopup formsaspire="popquote" />{" "}
@@ -1622,7 +1602,7 @@ const HeaderNewDesign = () => {
               <RxCross2 />{" "}
             </span>{" "}
           </Modal.Body>
-        </Modal> */}
+        </Modal>
       </header>
     </>
   );

@@ -799,7 +799,14 @@
   color: #f32f5e;
 }
 
+.tabLink {
+  color: #f32f5e !important;
+}
+
 .imgpost a.myLink {
+  color: #000000;
+}
+.myLink {
   color: #000000;
 }
 
