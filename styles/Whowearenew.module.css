@@ -1,0 +1,132 @@
+.travel {
+  background-color: #D54700;
+  height: 290px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.travel p{
+  font-size: 14px;
+  margin-top: 10px;
+  
+}
+.travel2 p{
+  font-size: 14px;
+  margin-top: 10px;
+}
+.travel3 p{
+  font-size: 14px;
+  margin-top: 10px;
+}
+.travel2 {
+  background-color: #0076E1;
+  height: 290px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.travel3 {
+  background-color: #9037FF;
+  height: 290px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.travel h3{
+color: white;
+font-size: 35px;
+font-weight: bold;
+font-family: 'SF-Pro-Display';
+    letter-spacing: 2px;
+
+}
+.travel2 h3{
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'SF-Pro-Display';
+    letter-spacing: 2px;
+  
+  }
+  .travel3 h3{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'SF-Pro-Display';
+    letter-spacing: 2px;
+    
+    }
+
+    .counter{
+      padding-top: 80px;
+    }
+
+    .android h3{
+      color: #F32F53;
+      font-weight: bold;
+      font-family: 'SF-Pro-Display';
+    letter-spacing: 2px;
+      
+      font-size: 25px;
+    }
+    .android h2{
+      color: black;
+      font-size: 40px;
+      font-weight: bold;
+      font-family: 'SF-Pro-Display';
+    letter-spacing: 2px;
+      
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    .android p{
+      color: black;
+      padding-bottom: 20px;
+      font-size: 18px;
+      
+    }
+
+
+    @media screen and (min-width: 1400px) {   
+.comm{
+  width: 100%;
+}
+
+    }
+
+
+    @media screen and (max-width: 991px) {  
+
+.comm{
+  display: none;
+}
+
+    }
+
+    @media screen and (max-width: 480px) {
+
+
+      .travel h3 {
+        font-size: 25px;
+    }
+    .travel2 h3 {
+      font-size: 25px;
+  }
+  .travel3 h3 {
+    font-size: 25px;
+}
+      .android h2 {
+     
+        font-size: 25px;
+    
+    }
+    }

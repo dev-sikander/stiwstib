@@ -1,0 +1,54 @@
+.counter{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: #000;
+  background-image: url(../public/newdubai/soundbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.counter h2{
+  font-size: 40px;
+    font-weight: bold;
+    color: black;
+    font-family: 'SF-Pro-Display';
+    letter-spacing: 2px;
+    max-width: 900px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.counter p{
+  font-size: 18px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.counter a{
+  width: -moz-fit-content;
+    width: fit-content;
+    height: 45px;
+    background-color: #f32f53;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 14px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 480px) { 
+
+  .counter h2 {
+    font-size: 25px;
+}
+.counter{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+}
