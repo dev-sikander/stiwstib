@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useRouter } from 'next/navigation';
+import { usePathname } from "next/navigation"
 import Link from 'next/link'
 import Image from 'next/image'
 import { Row, Col } from 'react-bootstrap'
@@ -78,8 +78,8 @@ const Header = () => {
         setMegaMenu4((prev) => !prev);
     }
 
-    const router = useRouter();
-    const currentRoute = router.pathname;
+   const router = usePathname();
+    const currentRoute = router;
     const path = currentRoute
 
 

@@ -17,7 +17,7 @@ import banImg5 from '/public/images/banner/bannerImg1.png'
 
 
 const Justbuilditlpdubai = (props) => {
-    const router = useRouter();
+   const router = usePathname();
     var bannerslider = {
         dots: false,
         arrows: false,

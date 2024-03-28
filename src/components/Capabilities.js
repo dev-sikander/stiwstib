@@ -19,7 +19,7 @@ import close from '/public/newHomePageImages/close.png'
 
 const Capabilities = () => {
 
-    const router = useRouter();
+   const router = usePathname();
     var awardslogo = {
         dots: true,
         arrows: true,

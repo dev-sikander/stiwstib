@@ -2,7 +2,7 @@ import React from 'react'
 import asia from "@/public/images/mobilelpfinal/asia.png"
 import { useState, useEffect } from 'react';
 import Axios from "axios";
-import { useRouter } from 'next/navigation';
+import { usePathname } from "next/navigation"
 import Image from 'next/image';
 import Link from 'next/link';
 import { Container, Row, Col } from 'react-bootstrap'
@@ -34,8 +34,8 @@ const Bannerlpfinal = (props) => {
     const [score, setScore] = useState('ENQUIRE NOW');
 
 
-    const router = useRouter();
-    const currentRoute = router.pathname;
+   const router = usePathname();
+    const currentRoute = router;
     const [pagenewurl, setPagenewurl] = useState('');
     useEffect(() => {
         const pagenewurl = window.location.href;

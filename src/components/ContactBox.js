@@ -11,7 +11,7 @@ import houston from '/public/images/contact/houston.png'
 import Sharjah from '/public/images/contact/sharjah.png'
 import { useState, useEffect } from 'react';
 import Axios from "axios";
-import { useRouter } from 'next/navigation';
+import { usePathname } from "next/navigation"
 
 const ContactBox = () => {
 
@@ -29,8 +29,8 @@ const ContactBox = () => {
         getIPData()
     }, [])
     const [score, setScore] = useState('Submit');
-    const router = useRouter();
-    const currentRoute = router.pathname;
+   const router = usePathname();
+    const currentRoute = router;
      const [pagenewurl, setPagenewurl] = useState('');
       useEffect(() => {
         const pagenewurl = window.location.href;

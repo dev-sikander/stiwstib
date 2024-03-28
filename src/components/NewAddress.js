@@ -11,7 +11,7 @@ import icon14 from '/public/newMobilePageImages/city3.png'
 import arrow from '/public/newlppage/arrow.png'
 import { useState, useEffect } from 'react';
 import Axios from "axios";
-import { useRouter } from 'next/navigation';
+import { usePathname } from "next/navigation"
 
 
 const NewAddress = (props) => {
@@ -25,8 +25,8 @@ const NewAddress = (props) => {
         getIPData()
     }, [])
     const [score, setScore] = useState('Submit');
-    const router = useRouter();
-    const currentRoute = router.pathname;
+   const router = usePathname();
+    const currentRoute = router;
      const [pagenewurl, setPagenewurl] = useState('');
       useEffect(() => {
         const pagenewurl = window.location.href;

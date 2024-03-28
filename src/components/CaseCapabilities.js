@@ -17,7 +17,7 @@ import team6 from '/public/newHomePageImages/6.png'
 import close from '/public/newHomePageImages/close.png'
 
 const NewCaseCapabilities = () => {
-    const router = useRouter();
+   const router = usePathname();
     var awardslogo = {
         dots: true,
         arrows: true,

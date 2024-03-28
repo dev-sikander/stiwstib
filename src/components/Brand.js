@@ -7,7 +7,7 @@ import styles from "@/styles/Brand.module.css";
 import free from "/public/newdubai/free.png";
 import { useState, useEffect } from 'react';
 import Axios from "axios";
-import { useRouter } from 'next/navigation';
+import { usePathname } from "next/navigation"
 const Brand = (props) => {
   const [ip, setIP] = useState('');
   //creating function to load ip address from the API
@@ -28,8 +28,8 @@ const Brand = (props) => {
       setCheckboxes(checkboxes.filter((checkbox) => checkbox !== value));
     }
   };
-  const router = useRouter();
-  const currentRoute = router.pathname;
+ const router = usePathname();
+  const currentRoute = router;
 
   const [pagenewurl, setPagenewurl] = useState('');
   useEffect(() => {

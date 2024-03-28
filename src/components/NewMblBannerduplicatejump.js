@@ -6,7 +6,7 @@ import styles from "@/styles/NewMblBannerdulicatejump.module.css";
 import Justbuilditjump from './Justbuilditjump';
 import { useState, useEffect } from 'react';
 import Axios from "axios";
-import { useRouter } from 'next/navigation';
+import { usePathname } from "next/navigation"
 
 const NewHomeBanner = () => {
     const [ip, setIP] = useState('');
@@ -19,8 +19,8 @@ const NewHomeBanner = () => {
         getIPData()
     }, [])
     const [score, setScore] = useState('Submit Now');
-    const router = useRouter();
-    const currentRoute = router.pathname;
+   const router = usePathname();
+    const currentRoute = router;
      const [pagenewurl, setPagenewurl] = useState('');
       useEffect(() => {
         const pagenewurl = window.location.href;

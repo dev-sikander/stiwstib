@@ -7,7 +7,7 @@ import styles from "../../styles/NewHeader.module.css";
 const ActiveLink = ({ href, text, className = "", handle }) => {
 
   const router = usePathname();
-  const currentRoute = router.pathname;
+  const currentRoute = router;
   return (
     <button className={styles.megaButton} onClick={handle}>
       <Link

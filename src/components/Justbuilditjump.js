@@ -14,7 +14,7 @@ import banImg4 from '/public/images/banner/bannerImg2.png'
 import banImg5 from '/public/images/banner/bannerImg1.png'
 
 const Justbuildit = () => {
-    const router = useRouter();
+   const router = usePathname();
     var bannerslider = {
         dots: false,
         arrows: false,

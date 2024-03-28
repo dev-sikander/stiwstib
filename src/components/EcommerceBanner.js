@@ -27,7 +27,7 @@ import banImg7 from '/public/newHomePage/images/slider7.png'
 import banImg8 from '/public/newHomePage/images/slider8.png'
 import { useState, useEffect } from 'react';
 import Axios from "axios";
-import { useRouter } from 'next/navigation';
+import { usePathname } from "next/navigation"
 
 
 const EcommerceBanner = () => {
@@ -46,8 +46,8 @@ const EcommerceBanner = () => {
     const [score, setScore] = useState('ENQUIRE NOW');
 
 
-    const router = useRouter();
-    const currentRoute = router.pathname;
+   const router = usePathname();
+    const currentRoute = router;
      const [pagenewurl, setPagenewurl] = useState('');
       useEffect(() => {
         const pagenewurl = window.location.href;

@@ -14,7 +14,7 @@ import Slider from "react-slick";
 
 const Justbuildit = (props) => {
 
-  const router = useRouter();
+ const router = usePathname();
 
   var bannerslider = {
     dots: false,

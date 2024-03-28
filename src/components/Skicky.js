@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import Link from "next/link";
 import Image from "next/image";
 import Axios from "axios";
-import { useRouter } from 'next/navigation';
+import { usePathname } from "next/navigation"
 //
 import { BsX } from "react-icons/bs";
 //
@@ -52,8 +52,8 @@ const Skicky = () => {
     const [score, setScore] = useState('Submit');
 
 
-    const router = useRouter();
-    const currentRoute = router.pathname;
+   const router = usePathname();
+    const currentRoute = router;
 
 
     const [pagenewurl, setPagenewurl] = useState('');

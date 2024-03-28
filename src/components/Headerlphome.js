@@ -18,7 +18,7 @@ import new4 from '/public/images/lpheader/new4.png'
 import new5 from '/public/images/lpheader/new5.png'
 import { useState, useEffect } from 'react';
 import Axios from "axios";
-import { useRouter } from 'next/navigation';
+import { usePathname } from "next/navigation"
 
 
 const Headerlphome = () => {
@@ -44,8 +44,8 @@ const Headerlphome = () => {
     const [score, setScore] = useState('Submit');
 
 
-    const router = useRouter();
-    const currentRoute = router.pathname;
+   const router = usePathname();
+    const currentRoute = router;
      const [pagenewurl, setPagenewurl] = useState('');
       useEffect(() => {
         const pagenewurl = window.location.href;
