@@ -8,7 +8,7 @@ import badgelogo from '/public/images/footerimage/badgelogo.svg'
 
 import { useState, useEffect } from 'react';
 import Axios from "axios";
-import { useRouter } from 'next/navigation';
+import { usePathname } from "next/navigation"
 
 
 const Formnewlpnewhome = () => {
@@ -27,8 +27,8 @@ const Formnewlpnewhome = () => {
     const [score, setScore] = useState('Submit');
 
 
-    const router = useRouter();
-    const currentRoute = router.pathname;
+   const router = usePathname();
+    const currentRoute = router;
      const [pagenewurl, setPagenewurl] = useState('');
       useEffect(() => {
         const pagenewurl = window.location.href;

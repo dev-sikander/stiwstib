@@ -10,7 +10,7 @@ import img3 from "/public/images/agencylogos/agency-logo3.png"
 import img4 from "/public/images/agencylogos/agency-logo4.png"
 import { useState, useEffect } from 'react';
 import Axios from "axios";
-import { useRouter } from 'next/navigation';
+import { usePathname } from "next/navigation"
 
 const Contact = (props) => {
     const [ip, setIP] = useState('');
@@ -27,8 +27,8 @@ const Contact = (props) => {
     const [score, setScore] = useState('Time to Book The Call');
 
 
-    const router = useRouter();
-    const currentRoute = router.pathname;
+   const router = usePathname();
+    const currentRoute = router;
     const [pagenewurl, setPagenewurl] = useState('');
     useEffect(() => {
         const pagenewurl = window.location.href;

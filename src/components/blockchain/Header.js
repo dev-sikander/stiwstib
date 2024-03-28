@@ -21,8 +21,8 @@ import Banners from '@/components/Banners';
 
 function Header() {
 
-  const router = useRouter();
-  const onHomepage = useMemo(() => router.pathname === "/", [router.pathname]);
+ const router = usePathname();
+  const onHomepage = useMemo(() =>router === "/", [router.pathname]);
 
   return (
     <>

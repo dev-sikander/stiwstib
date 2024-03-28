@@ -1,0 +1,93 @@
+.newtown h2{
+  font-size: 40px;
+}
+
+.expertapp {
+  background-color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.appno {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 2%;
+}
+.copy img{
+  filter: brightness(0);
+}
+
+.app {
+  display: flex;
+  align-items: flex-start;
+  background-color: #F3F3F3;
+  border: 2px solid #F3F3F3;
+  border-radius: 15px;
+  height: 201px;
+  padding-left: 15px;
+  padding-right: 15px;
+  gap: 10px;
+  transition: all 1s ease-out;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+
+
+.copy {
+  width: 91%;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.connect {
+  width: 436px;
+  height: 45px;
+  background-color: #f32f53;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+}
+.offer {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.app:hover {
+  background-color: #f32f53;
+  transition: all 1s ease-out;
+}
+.app:hover .copy img{
+  filter: unset;
+}
+.app:hover .copy h3 {
+  color: white;
+}
+.app:hover p{
+  color: white;
+}
+@media screen and (max-width: 991px) {
+  .expertapp {
+    padding: 0 0 80px;
+    background-image: none;
+  }
+
+  .app {
+    height: 225px;
+    margin: 0 5px;
+  }
+
+  .copy {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .expertapp {
+    padding: 0 0 50px;
+    background-image: none;
+  }
+}

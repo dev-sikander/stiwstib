@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname } from "next/navigation"
 import React from "react";
 import styles from "../../styles/NewHeader.module.css";
 
@@ -7,7 +7,7 @@ import styles from "../../styles/NewHeader.module.css";
 const ActiveLink = ({ href, text, className = "", handle }) => {
 
   const router = usePathname();
-  const currentRoute = router.pathname;
+  const currentRoute = router;
   return (
     <button className={styles.megaButton} onClick={handle}>
       <Link

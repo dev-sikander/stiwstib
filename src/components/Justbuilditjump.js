@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { useRouter } from "next/navigation";
+import { usePathname } from "next/navigation"
 import styles from '@/styles/Justbuilditjump.module.css'
 //
 import Slider from "react-slick";
@@ -14,7 +14,7 @@ import banImg4 from '/public/images/banner/bannerImg2.png'
 import banImg5 from '/public/images/banner/bannerImg1.png'
 
 const Justbuildit = () => {
-    const router = useRouter();
+   const router = usePathname();
     var bannerslider = {
         dots: false,
         arrows: false,

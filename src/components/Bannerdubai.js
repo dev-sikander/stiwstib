@@ -11,7 +11,7 @@ import star1 from '/public/images/people/1.png'
 import star2 from '/public/images/people/2.png'
 import { useState, useEffect } from 'react';
 import Axios from "axios";
-import { useRouter } from 'next/navigation';
+import { usePathname } from "next/navigation"
 
 const Bannerdubai = (props) => {
 
@@ -37,8 +37,8 @@ const Bannerdubai = (props) => {
             setCheckboxes(checkboxes.filter((checkbox) => checkbox !== value));
         }
     };
-    const router = useRouter();
-    const currentRoute = router.pathname;
+   const router = usePathname();
+    const currentRoute = router;
 
     const [pagenewurl, setPagenewurl] = useState('');
     useEffect(() => {

@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
-import { useRouter } from "next/navigation";
+import { usePathname } from "next/navigation"
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from '@/styles/Capabilities.module.css'
 //
@@ -19,7 +19,7 @@ import close from '/public/newHomePageImages/close.png'
 
 const Capabilities = () => {
 
-    const router = useRouter();
+   const router = usePathname();
     var awardslogo = {
         dots: true,
         arrows: true,

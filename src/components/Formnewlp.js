@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import styles from "@/styles/Formnewlp.module.css";
 import { useState, useEffect } from 'react';
 import Axios from "axios";
-import { useRouter } from 'next/navigation';
+import { usePathname } from "next/navigation"
 const Formnewlp = () => {
     const [ip, setIP] = useState('');
     //creating function to load ip address from the API
@@ -16,8 +16,8 @@ const Formnewlp = () => {
     }, [])
 
     const [score, setScore] = useState('Submit');
-    const router = useRouter();
-    const currentRoute = router.pathname;
+   const router = usePathname();
+    const currentRoute = router;
     const [pagenewurl, setPagenewurl] = useState('');
       useEffect(() => {
         const pagenewurl = window.location.href;

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useRouter } from "next/navigation";
+import { usePathname } from "next/navigation"
 import Link from "next/link";
 import Image from "next/image";
 import { Row, Col, Modal } from "react-bootstrap";
@@ -66,7 +66,7 @@ import ready from "/public/images/case-studies/case-ready/banner-img.png"
 
 
 const HeaderNewDesign = () => {
-  const router = useRouter();
+ const router = usePathname();
   const [isSliderActive, setIsSliderActive] = useState(true);
   useEffect(() => {
     const handleResize = () => {
