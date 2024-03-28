@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
-import { useRouter } from "next/navigation";
+import { usePathname } from "next/navigation"
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from '@/styles/Capabilities.module.css'
 //

@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import { useRouter } from "next/navigation";
+import { usePathname } from "next/navigation"
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from '@/styles/Justbuilditlpdubai.module.css'
 //

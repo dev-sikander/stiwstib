@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname } from "next/navigation"
 import React from "react";
 import styles from "../../styles/NewHeader.module.css";
 

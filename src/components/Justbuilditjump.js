@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { useRouter } from "next/navigation";
+import { usePathname } from "next/navigation"
 import styles from '@/styles/Justbuilditjump.module.css'
 //
 import Slider from "react-slick";
