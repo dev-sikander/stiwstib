@@ -1,6 +1,5 @@
 "use client"
-
-import Head from "next/head";
+ 
 import styles from "@/styles/blockchain/Home.module.css";
 //
 import Banners from "../../components/blockchain/Banners";
@@ -145,15 +144,7 @@ export default function Home() {
   );
 
   return (
-    <>
-      <Head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        {/* Meta Tags & OG Tags Added Through Route */}
-        <link rel="icon" href="images/icons/favicon.png" />
-      </Head>
-
+    <> 
       <main className={styles.main}>
         <Banners />
         <Logoslide />

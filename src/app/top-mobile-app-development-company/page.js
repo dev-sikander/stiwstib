@@ -1,6 +1,5 @@
 "use client"
-
-import Head from "next/head";
+ 
 import React from "react";
 import Link from "next/link";
 // css
@@ -27,15 +26,7 @@ import HomeLocationlp from "../../components/HomeLocationlp";
 export default function gamedevelopmentcompany() {
 
   return (
-    <>
-      <Head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        {/* Meta Tags & OG Tags Added Through Route */}
-        <link rel="icon" href="images/icons/favicon.png" />
-      </Head>
-
+    <> 
       <Bannerlp
         title={
           <>

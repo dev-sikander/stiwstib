@@ -1,6 +1,5 @@
 "use client"
-
-import Head from "next/head";
+ 
 import React, { useState, useEffect } from "react";
 // css //
 import styles from "@/styles/LpChoose.module.css";
@@ -106,15 +105,7 @@ export default function gamedevelopmentcompany() {
   ];
 
   return (
-    <>
-      <Head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        {/* Meta Tags & OG Tags Added Through Route */}
-        <link rel="icon" href="images/icons/favicon.png" />
-      </Head>
-
+    <> 
       <ServicesBanner
         subtitle="Revolutionizing & Creating A Smarter Future"
         title={<> Android App Development Company </>}

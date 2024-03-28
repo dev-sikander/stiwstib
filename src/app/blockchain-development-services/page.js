@@ -1,7 +1,6 @@
 "use client"
 
-import React from "react";
-import Head from "next/head";
+import React from "react"; 
 // Components
 import Banner from "../../components/new-blockchain-page-fy/BlockchainBanner";
 import Provideservices from "../../components/new-blockchain-page-fy/Provideservices";
@@ -37,15 +36,7 @@ import mbestgloba16 from "/public/moniter/6.png";
 export default function blockchaindevelopmentservices() {
 
   return (
-    <>
-      <Head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        {/* Meta Tags & OG Tags Added Through Route */}
-        <link rel="icon" href="images/icons/favicon.png" />
-      </Head>
-
+    <> 
       <Banner
         assignClass="awardpost"
         subtitle="Our Award-Winning"

@@ -1,6 +1,5 @@
 "use client"
-
-import Head from "next/head";
+ 
 import React, { useState, useEffect } from "react";
 //components
 import ServicesBanner from "../../components/ServicesBanner";
@@ -112,15 +111,7 @@ export default function augmentedrealityappsdevelopment() {
     },
   ];
   return (
-    <>
-      <Head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        {/* Meta Tags & OG Tags Added Through Route */}
-        <link rel="icon" href="images/icons/favicon.png" />
-      </Head>
-
+    <> 
       <ServicesBanner
         subtitle="Empower Your Business with"
         title={<> Top Augmented Reality App Development Company </>}
