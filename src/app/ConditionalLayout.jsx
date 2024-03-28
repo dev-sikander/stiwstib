@@ -17,101 +17,67 @@ import Pixel from "../components/Pixel";
 import Pixel2 from "../components/Pixel2";
 
 const ConditionalLayout = ({ children }) => {
-    const router = usePathname();
+    const pathname = usePathname();
     // =============== Mouse ===============
     const mouse =
-        router.pathname == "/" ||
-        router.pathname == "/about-us" ||
-        router.pathname == "/our-work" ||
-        router.pathname == "/privacy-policy" ||
-        router.pathname == "/term-and-condition" ||
-        router.pathname == "/ios-app-development" ||
-        router.pathname == "/android-application-development" ||
-        router.pathname == "/augmented-reality-apps-development-company" ||
-        router.pathname == "/artificial-intelligence-development-company" ||
-        router.pathname == "/cross-platform-app-development" ||
-        router.pathname == "/web-app-development" ||
-        router.pathname == "/react-native-mobile-development" ||
-        router.pathname == "/hybrid-mobile-apps-development" ||
-        router.pathname == "/custom-mobile-development" ||
-        router.pathname == "/native-mobile-development" ||
-        router.pathname == "/flutter-mobile-development" ||
-        router.pathname == "/mobile-application" ||
-        router.pathname == "/mobile-application-usa" ||
-        router.pathname == "/mobile-application-huston" ||
-        router.pathname == "/mobile-application-newyork" ||
-        router.pathname == "/mobile-application-los-angeles" ||
-        router.pathname == "/mobile-application-duplicate" ||
-        router.pathname == "/mobile-application-duplicate2" ||
-        router.pathname == "/top-mobile-app-development-company" ||
-        router.pathname == "/mobile-app-development-company-lp2" ||
-        router.pathname == "/game-application-development" ||
-        router.pathname == "/nft-game-development" ||
-        router.pathname == "/2d-game-development-company" ||
-        router.pathname == "/3d-game-development-company" ||
-        router.pathname == "/blockchain-game-development" ||
-        router.pathname == "/travel-app-development-case-study" ||
-        router.pathname == "/real-estate-app-development-case-study" ||
-        router.pathname == "/clothing-marketplace-app-development-case-study" ||
-        router.pathname == "/social-app-development-case-study" ||
-        router.pathname == "/automobile-repair-app-development-case-study" ||
-        router.pathname == "/marketing-partnership-app-development-case-study" ||
-        router.pathname == "/healthcare-app-development-case-study" ||
-        router.pathname == "/ride-app-development-case-study" ||
-        router.pathname == "/fitness-app-development-case-study" ||
-        router.pathname == "/hiring-app-development-case-study" ||
-        router.pathname == "/music-app-development-case-study" ||
-        router.pathname == "/handyman-on-demand-app-development-case-study" ||
-        router.pathname == "/food-delivery-app-development-case-study" ||
-        router.pathname == "/ios-developer" ||
-        router.pathname == "/android-developer" ||
-        router.pathname == "/hybrid-developer" ||
-        router.pathname == "/native-developer" ||
-        router.pathname == "/mobile-developer" ||
-        router.pathname == "/top-ecommerce-app-development-company" ||
-        router.pathname == "/top-mobile-app-development-company" ||
-        router.pathname == "/mobile-app-development-services" ||
-        router.pathname == "/create-a-mobile-app" ||
-        router.pathname == "/top-mobile-app-developers" ||
-        router.pathname == "/mobile-app-development-company-dubai";
-    // =======================================
-    const newlps = router.pathname == "/mobile-app-development-company-lp2";
-    // =======================================
-    const newhomepage = router.pathname == "/top-mobile-app-developers";
-    // =======================================
-    const newecommercepage = router.pathname == "/top-ecommerce-app-development-company";
+        pathname == "/" ||
+        pathname == "/about-us" ||
+        pathname == "/our-work" ||
+        pathname == "/privacy-policy" ||
+        pathname == "/term-and-condition" ||
+        pathname == "/ios-app-development" ||
+        pathname == "/android-application-development" ||
+        pathname == "/augmented-reality-apps-development-company" ||
+        pathname == "/artificial-intelligence-development-company" ||
+        pathname == "/cross-platform-app-development" ||
+        pathname == "/web-app-development" ||
+        pathname == "/react-native-mobile-development" ||
+        pathname == "/hybrid-mobile-apps-development" ||
+        pathname == "/custom-mobile-development" ||
+        pathname == "/native-mobile-development" ||
+        pathname == "/flutter-mobile-development" ||
+        pathname == "/mobile-application" ||
+        pathname == "/mobile-application-usa" ||
+        pathname == "/mobile-application-huston" ||
+        pathname == "/mobile-application-newyork" ||
+        pathname == "/mobile-application-los-angeles" ||
+        pathname == "/mobile-application-duplicate" ||
+        pathname == "/mobile-application-duplicate2" ||
+        pathname == "/top-mobile-app-development-company" ||
+        pathname == "/mobile-app-development-company-lp2" ||
+        pathname == "/game-application-development" ||
+        pathname == "/nft-game-development" ||
+        pathname == "/2d-game-development-company" ||
+        pathname == "/3d-game-development-company" ||
+        pathname == "/blockchain-game-development" ||
+        pathname == "/travel-app-development-case-study" ||
+        pathname == "/real-estate-app-development-case-study" ||
+        pathname == "/clothing-marketplace-app-development-case-study" ||
+        pathname == "/social-app-development-case-study" ||
+        pathname == "/automobile-repair-app-development-case-study" ||
+        pathname == "/marketing-partnership-app-development-case-study" ||
+        pathname == "/healthcare-app-development-case-study" ||
+        pathname == "/ride-app-development-case-study" ||
+        pathname == "/fitness-app-development-case-study" ||
+        pathname == "/hiring-app-development-case-study" ||
+        pathname == "/music-app-development-case-study" ||
+        pathname == "/handyman-on-demand-app-development-case-study" ||
+        pathname == "/food-delivery-app-development-case-study" ||
+        pathname == "/ios-developer" ||
+        pathname == "/android-developer" ||
+        pathname == "/hybrid-developer" ||
+        pathname == "/native-developer" ||
+        pathname == "/mobile-developer" ||
+        pathname == "/top-ecommerce-app-development-company" ||
+        pathname == "/top-mobile-app-development-company" ||
+        pathname == "/mobile-app-development-services" ||
+        pathname == "/create-a-mobile-app" ||
+        pathname == "/top-mobile-app-developers" ||
+        pathname == "/mobile-app-development-company-dubai";
     // =======================================
     const superecommer =
-        router.pathname == "/top-mobile-app-developers" ||
-        router.pathname == "/top-ecommerce-app-development-company";
-    // =======================================
-    const meetOurTeam = router.pathname == "/meet-our-team";
-    // =======================================
-    let headerComponent;
-    if (newlps) {
-        headerComponent = <Headerlp />;
-    } else if (newhomepage) {
-        headerComponent = <Headerlphome />;
-    } else if (newecommercepage) {
-        headerComponent = <EcommerceBanner />;
-    } else if (meetOurTeam) {
-        headerComponent = null;
-    } else {
-        headerComponent = <Header />;
-    }
-    // =======================================
-    let footerComponent;
-    if (newlps) {
-        footerComponent = <Footernewlp />;
-    } else if (newhomepage) {
-        footerComponent = <Footernewdesign />;
-    } else if (newecommercepage) {
-        footerComponent = <EcommerceFooter />;
-    } else if (meetOurTeam) {
-        footerComponent = null;
-    } else {
-        footerComponent = <Footer />;
-    }
+        pathname == "/top-mobile-app-developers" ||
+        pathname == "/top-ecommerce-app-development-company";
     // =======================================
     const [showPixels, setShowPixels] = useState(false);
     useEffect(() => {
@@ -130,11 +96,23 @@ const ConditionalLayout = ({ children }) => {
                     {/* <Analytics /> */}
                 </>
             )}
-            {headerComponent}
+            {
+                pathname == "/mobile-app-development-company-lp2" ? <Headerlp /> :
+                    pathname == "/top-mobile-app-developers" ? <Headerlphome /> :
+                        pathname == "/top-ecommerce-app-development-company" ? <EcommerceBanner /> :
+                            pathname == "/meet-our-team" ? null :
+                                <Header />
+            }
             {mouse && <Cursor />}
             {superecommer ? '' : <Skicky />}
             {children}
-            {footerComponent}
+            {
+                pathname == "/mobile-app-development-company-lp2" ? <Footernewlp /> :
+                    pathname == "/top-mobile-app-developers" ? <Footernewdesign /> :
+                        pathname == "/top-ecommerce-app-development-company" ? <EcommerceFooter /> :
+                            pathname == "/meet-our-team" ? null :
+                                <Footer />
+            }
         </>
     )
 }

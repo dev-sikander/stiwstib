@@ -1,19 +1,19 @@
 //===== Meta Data =====
 export const metadata = {
   //===== Meta Tags =====
-  title: "App Development Company | Professional App Developers",
-  description: "BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications",
+  title: "Hybrid Mobile Apps Development Company | Hybrid App Developers",
+  description: "Hire the best Hybrid app developers at BitsWits, specializing in innovative solutions and technology for all devices.",
   //===== OG Tags =====
   openGraph: {
-    title: 'App Development Company | Professional App Developers',
-    description: 'BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications',
-    url: 'https://bitswits.co/',
+    title: 'Hybrid Mobile Apps Development Company | Hybrid App Developers',
+    description: 'Hire the best Hybrid app developers at BitsWits, specializing in innovative solutions and technology for all devices.',
+    url: 'https://bitswits.co/hybrid-mobile-apps-development/',
     siteName: 'BitsWits',
     locale: 'en_US',
     type: 'website',
   },
   //===== Canonical =====
-  alternates: { canonical: 'https://bitswits.co/' },
+  alternates: { canonical: 'https://bitswits.co/hybrid-mobile-apps-development/' },
   //===== GEO Tags =====
   other: {},
 }

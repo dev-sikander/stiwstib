@@ -1,19 +1,19 @@
 //===== Meta Data =====
 export const metadata = {
   //===== Meta Tags =====
-  title: "Top-Rated Web App Development Company | Web App Developers",
-  description: "Looking for a top-rated web app development company? Our team of skilled web app developers specializes in crafting high-quality and customized web applications.",
+  title: "Create a Mobile App | Custom Solutions from Concept to Launch",
+  description: "Create a Mobile App with Bitswits. Where Innovation Meets Excellence | Bitswits.co",
   //===== OG Tags =====
   openGraph: {
-    title: 'Top-Rated Web App Development Company | Web App Developers',
-    description: 'Looking for a top-rated web app development company? Our team of skilled web app developers specializes in crafting high-quality and customized web applications.',
-    url: 'https://bitswits.co/web-app-development/',
+    title: 'Create a Mobile App | Custom Solutions from Concept to Launch',
+    description: 'Create a Mobile App with Bitswits. Where Innovation Meets Excellence | Bitswits.co',
+    url: 'https://bitswits.co/create-a-mobile-app/',
     siteName: 'BitsWits',
     locale: 'en_US',
     type: 'website',
   },
   //===== Canonical =====
-  alternates: { canonical: 'https://bitswits.co/web-app-development/' },
+  alternates: { canonical: 'https://bitswits.co/create-a-mobile-app/' },
   //===== GEO Tags =====
   other: {},
 }
