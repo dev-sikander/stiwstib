@@ -1,19 +1,19 @@
 //===== Meta Data =====
 export const metadata = {
   //===== Meta Tags =====
-  title: "App Development Company | Professional App Developers",
-  description: "BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications",
+  title: "Flutter Apps Development Company | Flutter App Developers",
+  description: "Hire the best Flutter app developers to create high-quality and seamless mobile applications. BitsWits is a leading Flutter app development company in USA.",
   //===== OG Tags =====
   openGraph: {
-    title: 'App Development Company | Professional App Developers',
-    description: 'BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications',
-    url: 'https://bitswits.co/',
+    title: 'Flutter Apps Development Company | Flutter App Developers',
+    description: 'Hire the best Flutter app developers to create high-quality and seamless mobile applications. BitsWits is a leading Flutter app development company in USA.',
+    url: 'https://bitswits.co/flutter-mobile-development/',
     siteName: 'BitsWits',
     locale: 'en_US',
     type: 'website',
   },
   //===== Canonical =====
-  alternates: { canonical: 'https://bitswits.co/' },
+  alternates: { canonical: 'https://bitswits.co/flutter-mobile-development/' },
   //===== GEO Tags =====
   other: {},
 }

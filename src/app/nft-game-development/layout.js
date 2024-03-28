@@ -1,19 +1,19 @@
 //===== Meta Data =====
 export const metadata = {
   //===== Meta Tags =====
-  title: "App Development Company | Professional App Developers",
-  description: "BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications",
+  title: "NFT Game Development Company | NFT Game Developers",
+  description: "Looking for a top-tier NFT game development company? Our NFT game developers at BitsWits, have the expertise to create games that engage players on every level.",
   //===== OG Tags =====
   openGraph: {
-    title: 'App Development Company | Professional App Developers',
-    description: 'BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications',
-    url: 'https://bitswits.co/',
+    title: 'NFT Game Development Company | NFT Game Developers',
+    description: 'Looking for a top-tier NFT game development company? Our NFT game developers at BitsWits, have the expertise to create games that engage players on every level.',
+    url: 'https://bitswits.co/nft-game-development/',
     siteName: 'BitsWits',
     locale: 'en_US',
     type: 'website',
   },
   //===== Canonical =====
-  alternates: { canonical: 'https://bitswits.co/' },
+  alternates: { canonical: 'https://bitswits.co/nft-game-development/' },
   //===== GEO Tags =====
   other: {},
 }

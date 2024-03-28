@@ -1,19 +1,19 @@
 //===== Meta Data =====
 export const metadata = {
   //===== Meta Tags =====
-  title: "App Development Company | Professional App Developers",
-  description: "BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications",
+  title: "Blockchain Development Company | Blockchain Developers",
+  description: "Experience the pinnacle of excellence with our distinguished Blockchain Development Company, as our proficient Blockchain Developers revolutionize the digital landscape.",
   //===== OG Tags =====
   openGraph: {
-    title: 'App Development Company | Professional App Developers',
-    description: 'BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications',
-    url: 'https://bitswits.co/',
+    title: 'Blockchain Development Company | Blockchain Developers',
+    description: 'Experience the pinnacle of excellence with our distinguished Blockchain Development Company, as our proficient Blockchain Developers revolutionize the digital landscape.',
+    url: 'https://bitswits.co/blockchain-development-lp/',
     siteName: 'BitsWits',
     locale: 'en_US',
     type: 'website',
   },
   //===== Canonical =====
-  alternates: { canonical: 'https://bitswits.co/' },
+  alternates: { canonical: 'https://bitswits.co/blockchain-development-lp/' },
   //===== GEO Tags =====
   other: {},
 }

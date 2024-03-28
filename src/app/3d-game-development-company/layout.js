@@ -1,19 +1,19 @@
 //===== Meta Data =====
 export const metadata = {
   //===== Meta Tags =====
-  title: "App Development Company | Professional App Developers",
-  description: "BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications",
+  title: "3D Games Development Company | 3D Games Developers",
+  description: "Bring your game to life with graphics and gameplay. Our 3D game application developers specialize in crafting games that offer a realistic experience.",
   //===== OG Tags =====
   openGraph: {
-    title: 'App Development Company | Professional App Developers',
-    description: 'BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications',
-    url: 'https://bitswits.co/',
+    title: '3D Games Development Company | 3D Games Developers',
+    description: 'Bring your game to life with graphics and gameplay. Our 3D game application developers specialize in crafting games that offer a realistic experience.',
+    url: 'https://bitswits.co/3d-game-development-company/',
     siteName: 'BitsWits',
     locale: 'en_US',
     type: 'website',
   },
   //===== Canonical =====
-  alternates: { canonical: 'https://bitswits.co/' },
+  alternates: { canonical: 'https://bitswits.co/3d-game-development-company/' },
   //===== GEO Tags =====
   other: {},
 }

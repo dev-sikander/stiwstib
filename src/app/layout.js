@@ -8,11 +8,11 @@ import ConditionalLayout from "./ConditionalLayout";
 export const metadata = {
   //===== Meta Tags =====
   title: "App Development Company | Professional App Developers",
-  description: "BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications",
+  description: "BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications.",
   //===== OG Tags =====
   openGraph: {
     title: "App Development Company | Professional App Developers",
-    description: "BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications",
+    description: "BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications.",
     url: 'https://bitswits.co/',
     siteName: 'BitsWits',
     locale: 'en_US',
