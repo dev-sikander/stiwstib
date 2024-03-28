@@ -1,19 +1,19 @@
 //===== Meta Data =====
 export const metadata = {
   //===== Meta Tags =====
-  title: "App Development Company | Professional App Developers",
-  description: "BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications",
+  title: "Social Media App Development Company | Social Media App Developers",
+  description: "Experience the epitome of social media innovation with our top-notch app development company, delivering exceptional results for businesses worldwide.",
   //===== OG Tags =====
   openGraph: {
-    title: 'App Development Company | Professional App Developers',
-    description: 'BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications',
-    url: 'https://bitswits.co/',
+    title: 'Social Media App Development Company | Social Media App Developers',
+    description: 'Experience the epitome of social media innovation with our top-notch app development company, delivering exceptional results for businesses worldwide.',
+    url: 'https://bitswits.co/social-media-app-development/',
     siteName: 'BitsWits',
     locale: 'en_US',
     type: 'website',
   },
   //===== Canonical =====
-  alternates: { canonical: 'https://bitswits.co/' },
+  alternates: { canonical: 'https://bitswits.co/social-media-app-development/' },
   //===== GEO Tags =====
   other: {},
 }
