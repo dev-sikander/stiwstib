@@ -12,9 +12,10 @@ import Footernewdesign from "../components/Footernewdesign";
 import EcommerceFooter from "../components/EcommerceFooter";
 import Cursor from "../components/Cursor";
 import Skicky from "../components/Skicky";
-// import { Analytics } from '@vercel/analytics/react';
+import { Analytics } from '@vercel/analytics/react';
 import Pixel from "../components/Pixel";
 import Pixel2 from "../components/Pixel2";
+import MetaData from "../components/MetaData";
 
 const ConditionalLayout = ({ children }) => {
     const pathname = usePathname();
@@ -91,9 +92,10 @@ const ConditionalLayout = ({ children }) => {
         <>
             {showPixels && (
                 <>
+                    <MetaData />
                     <Pixel />
                     <Pixel2 />
-                    {/* <Analytics /> */}
+                    <Analytics />
                 </>
             )}
             {

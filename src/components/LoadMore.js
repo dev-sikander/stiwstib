@@ -1,5 +1,5 @@
-import { getPostList } from "../../lib/posts";
 import { useState } from "react";
+import { getPostList } from "../../lib/posts";
 import styles from '../../styles/BlogListBody.module.css'
 
 
