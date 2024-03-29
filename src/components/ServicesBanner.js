@@ -26,7 +26,7 @@ const ServiceBanner = (props) => {
                 {props.text}
               </p>
               <div className={styles.pont}>
-                <Link className={styles.book} href="tel:+18335006007">
+                <Link className={styles.book} href="tel:8335006007">
                   BOOK A CALL
                 </Link>
 

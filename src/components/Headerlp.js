@@ -675,7 +675,7 @@ const Header = () => {
                                                             <BsFillTelephoneFill size={25} className={styles.email} />
                                                         </div>
                                                         <div>
-                                                            <Link className='font15 font-medium white fontf' href="tel:+1 312 379 5987" onClick={handleMenu}>
+                                                            <Link className='font15 font-medium white fontf' href="tel:3123795987" onClick={handleMenu}>
                                                                 +1 312 379 5987
                                                             </Link>
                                                         </div>
@@ -685,7 +685,7 @@ const Header = () => {
                                                             <BsFillTelephoneFill size={25} className={styles.email} />
                                                         </div>
                                                         <div>
-                                                            <Link className='font15 font-medium white fontf' href="tel:+18335006007" onClick={handleMenu}>
+                                                            <Link className='font15 font-medium white fontf' href="tel:8335006007" onClick={handleMenu}>
                                                                 +1 833 500 6007
                                                             </Link>
                                                         </div>
@@ -699,7 +699,7 @@ const Header = () => {
                         </li>
 
                         <li className={`${styles.navList} ${styles.inqBtn}`} >
-                            <Link href='tel:+18335006007' className={styles.befLink}> <Image src={call} alt='BitsWits' className='img-fluid' /> +1 833 500 6007</Link>
+                            <Link href='tel:8335006007' className={styles.befLink}> <Image src={call} alt='BitsWits' className='img-fluid' /> +1 833 500 6007</Link>
                         </li>
                         <li>
                             <div className={styles.mbInq}>
@@ -719,7 +719,7 @@ const Header = () => {
                                             <BsFillTelephoneFill size={25} className={styles.email} />
                                         </div>
                                         <div>
-                                            <Link className='font15 font-medium white fontf' href="tel:+1 312 379 5987" onClick={handleMenu}>
+                                            <Link className='font15 font-medium white fontf' href="tel:3123795987" onClick={handleMenu}>
                                                 +1 312 379 5987
                                             </Link>
                                         </div>
@@ -729,7 +729,7 @@ const Header = () => {
                                             <BsFillTelephoneFill size={25} className={styles.email} />
                                         </div>
                                         <div>
-                                            <Link className='font15 font-medium white fontf' href="tel:+18335006007" onClick={handleMenu}>
+                                            <Link className='font15 font-medium white fontf' href="tel:8335006007" onClick={handleMenu}>
                                                 +1 833 500 6007
                                             </Link>
                                         </div>

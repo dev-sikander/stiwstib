@@ -149,13 +149,13 @@ const EcommerceFooter = () => {
                                     </Link>
                                 </li>
                                 <li className='mb-2'>
-                                    <Link href="tel:+1 312 379 5987" className='font12 lightgrey'>
+                                    <Link href="tel:3123795987" className='font12 lightgrey'>
                                         <Image src={Phone} alt='Phone' className='mb-2' />
                                         <span className='font12 lightgrey ms-2'>+1 312 379 5987</span>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="tel:+18335006007" className='font12 lightgrey'>
+                                    <Link href="tel:8335006007" className='font12 lightgrey'>
                                         <Image src={Phone} alt='Phone' className='mb-2' />
                                         <span className='font12 lightgrey ms-2'>+1 833 500 6007</span>
                                     </Link>

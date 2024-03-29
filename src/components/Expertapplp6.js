@@ -150,7 +150,7 @@ export default function Expertapplp6(props) {
 
                             <Col lg={12} className='mt-4'>
                                 <div className={styles.offer}>
-                                    <Link className={styles.connect} href='tel:+18335006007'>Your App, Our Expertise -  Let's Connect </Link>
+                                    <Link className={styles.connect} href='tel:8335006007'>Your App, Our Expertise -  Let's Connect </Link>
                                 </div>
                             </Col>
 
@@ -241,7 +241,7 @@ export default function Expertapplp6(props) {
                             </Col>
                             <Col lg={12}>
                                 <div className={styles.offer}>
-                                    <Link className={styles.connect} href='tel:+18335006007'>Your App, Our Expertise -  Let's Connect </Link>
+                                    <Link className={styles.connect} href='tel:8335006007'>Your App, Our Expertise -  Let's Connect </Link>
                                 </div>
                             </Col>
 

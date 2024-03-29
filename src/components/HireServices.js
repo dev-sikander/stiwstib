@@ -72,7 +72,7 @@ const HireServices = () => {
                                 <p className={`${styles.wid} f-20 text-white`}>Build impactful mobile applications by hiring  app developers from The BitsWits to achieve new horizons of success in the business market. We provide end-to-end mobile app solutions from ideation to development and app maintenance. Our services will not only help you give your customers a brilliant user experience but also attract new ones. Dedicated mobile app developers at The BitsWits outshine the industry in the below-mentioned services:</p>
                             </div>
                             <div className={styles.sec_btn}>
-                                <Link href='tel:+18335006007' className={`${styles.btn_txt} font-extrabold`}>
+                                <Link href='tel:8335006007' className={`${styles.btn_txt} font-extrabold`}>
                                     Get to know us
                                     <span>
                                         <Image quality={75} alt='BitsWits' src={ButtonIcon} width={15} height={15} />

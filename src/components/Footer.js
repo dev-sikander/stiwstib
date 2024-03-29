@@ -206,7 +206,7 @@ const Footerlp = () => {
                     </Link>
                   </li>
                   <li className="fw-bold">
-                    <Link href="tel:13123795987">
+                    <Link href="tel:3123795987">
                       <Image alt="BitsWits" className='img-fluid'
                         src={call}
 
@@ -216,7 +216,7 @@ const Footerlp = () => {
                     </Link>
                   </li>
                   <li className="fw-bold">
-                    <Link href="tel:18335006007">
+                    <Link href="tel:8335006007">
                       <Image alt="BitsWits" className='img-fluid'
                         src={call}
 

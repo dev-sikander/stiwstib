@@ -130,7 +130,7 @@ const Appmaking = () => {
                                         <li className="white mt-3 mb-5">Robust & Adaptable Mobile Application.</li>
                                     </ul>
                                     <div>
-                                        <Link href='tel:+18335006007' className={styles.live1}>Call Now: 111-2222-333</Link>
+                                        <Link href='tel:8335006007' className={styles.live1}>Call Now: 111-2222-333</Link>
                                     </div>
                                 </div>
 
@@ -180,7 +180,7 @@ const Appmaking = () => {
                                             <li className="white mt-3 mb-5">Robust & Adaptable Mobile Application.</li>
                                         </ul>
                                         <div>
-                                            <Link href='tel:+18335006007' className={styles.live1}>Call Now: 111-2222-333</Link>
+                                            <Link href='tel:8335006007' className={styles.live1}>Call Now: 111-2222-333</Link>
                                         </div>
                                     </div>
                                 </Col>

@@ -125,7 +125,7 @@ const Footernewdesign = () => {
                     </Link>
                   </li>
                   <li className="font-bold color-s">
-                    <Link href="tel:13123795987">
+                    <Link href="tel:3123795987">
                       <Image alt="BitsWits" className='img-fluid'
                         src={call}
 

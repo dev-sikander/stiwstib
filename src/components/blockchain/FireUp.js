@@ -63,14 +63,14 @@ const FireUp = (props) => {
                                             <div className='mb-4'>
                                                 <h4 className='fw500 f24 text-white'>DELAWARE</h4>
                                                 <p className='text-white'>8 The Green STE 300, Dover DE 19901.</p>
-                                                <p className='mt-4'> <Link className='text-white' href="tel:+18335006007">+1 833 500 6007</Link></p>
-                                                <p><Link className='text-white' href="tel:113123795987">+1 312 379 5987</Link></p>
+                                                <p className='mt-4'> <Link className='text-white' href="tel:8335006007">+1 833 500 6007</Link></p>
+                                                <p><Link className='text-white' href="tel:3123795987">+1 312 379 5987</Link></p>
                                             </div>
                                             <div className='mb-4'>
                                                 <h4 className='fw500 f24 text-white'>CALIFORNIA</h4>
                                                 <p className='text-white'>350 South Grand Avenue, Los Angeles, CA 90071.</p>
-                                                <p className='mt-4'> <Link className='text-white' href="tel:18335006007">+1 312 379 5987</Link></p>
-                                                <p><Link className='text-white' href="tel:113123795987">+1 833 500 6007</Link></p>
+                                                <p className='mt-4'> <Link className='text-white' href="tel:3123795987">+1 312 379 5987</Link></p>
+                                                <p><Link className='text-white' href="tel:8335006007">+1 833 500 6007</Link></p>
                                             </div>
                                         </Col>
                                         <Col lg={6}>
@@ -85,8 +85,8 @@ const FireUp = (props) => {
                                             <div className='mb-4'>
                                                 <h4 className='fw500 f24 text-white'>SHARJAH</h4>
                                                 <p className='text-white'>Office #101, 32 Street, Al Mujarrah, Sharjah.</p>
-                                                <p className='mt-4'> <Link className='text-white' href="tel:+18335006007">+1 833 500 6007</Link></p>
-                                                <p><Link className='text-white' href="tel:971555031266">+97 155 503 1266</Link></p>
+                                                <p className='mt-4'> <Link className='text-white' href="tel:8335006007">+1 833 500 6007</Link></p>
+                                                <p><Link className='text-white' href="tel:+971555031266">+97 155 503 1266</Link></p>
                                             </div>
                                         </Col>
                                         <Col lg={6}>
@@ -101,8 +101,8 @@ const FireUp = (props) => {
                                             <div className='mb-4'>
                                                 <h4 className='fw500 f24 text-white'>MALAYSIA</h4>
                                                 <p className='text-white'>Office 13 A - Main Office Tower - Financial Park , Labuan , Malaysia.</p>
-                                                <p className='mt-4'> <Link className='text-white' href="tel:+18335006007">+1 833 500 6007</Link></p>
-                                                <p><Link className='text-white' href="+113123795987">+1 312 379 5987</Link></p>
+                                                <p className='mt-4'> <Link className='text-white' href="tel:8335006007">+1 833 500 6007</Link></p>
+                                                <p><Link className='text-white' href="tel:3123795987">+1 312 379 5987</Link></p>
                                             </div>
 
                                         </Col>
@@ -118,8 +118,8 @@ const FireUp = (props) => {
                                             <div className='mb-4'>
                                                 <h4 className='fw500 f24 text-white'>KARACHI</h4>
                                                 <p className='text-white'>12th Floor Caesar's Tower, Karachi, Pakistan.</p>
-                                                <p className='mt-4'> <Link className='text-white' href="tel:923468280101">+92 346 828 0101</Link></p>
-                                                <p><Link className='text-white' href="+113123795987">+1 312 379 5987</Link></p>
+                                                <p className='mt-4'> <Link className='text-white' href="tel:+923468280101">+92 346 828 0101</Link></p>
+                                                <p><Link className='text-white' href="3123795987">+92 312 379 5987</Link></p>
                                             </div>
 
                                         </Col>

@@ -127,7 +127,7 @@ const ContactBox = () => {
                                                     <p className="font13 font-medium white mb-1 text-center">
                                                         8 The Green STE 300, Dover DE 19901.
                                                     </p>
-                                                    <Link className='font14 white text-center mb-3' href='tel:+18335006007'>+1 833 500 6007</Link>
+                                                    <Link className='font14 white text-center mb-3' href='tel:8335006007'>+1 833 500 6007</Link>
                                                     <div className={`${styles.locImg} ${styles.asiaImg}`}>
                                                         <Image src={delaware} alt='Location' className='img-fluid mb-4' />
                                                     </div>

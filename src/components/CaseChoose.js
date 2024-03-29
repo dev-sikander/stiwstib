@@ -32,7 +32,7 @@ const NewCaseChoose = (props) => {
                             <h3 className='white newchoose font-bold f-700 mb-3'>{props.title}</h3>
                             <p>{props.text1}</p>
                             <p>{props.text2}</p>
-                            <Link href="tel:+18335006007" className={styles.dus}>Choose Expertise, Choose Bitswits – Let's Get Started</Link>
+                            <Link href="tel:8335006007" className={styles.dus}>Choose Expertise, Choose Bitswits – Let's Get Started</Link>
                         </Col>
                         <Col lg={6} className='d-none d-lg-block'>
                             <div className={styles.cart}>

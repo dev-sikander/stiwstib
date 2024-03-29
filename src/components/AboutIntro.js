@@ -18,7 +18,7 @@ const AboutIntro = () => {
                     <div className={styles.para}>
                         <p className='text-white'>Our mobile app developers and designers' goal is to achieve productive outcomes to help our clients succeed in the highly competitive digital world.</p>
                         <p className='text-white mb-0'>We at, BitsWits, the top mobile application development agency have established ourselves as a reliable partner for leading start-ups around the world. Our team dedicated to enabling growth by providing multiple range of design and development services.</p>
-                        <Link className={styles.justNow} href='tel:+18335006007'>Call Now!</Link>
+                        <Link className={styles.justNow} href='tel:8335006007'>Call Now!</Link>
                     </div>
                 </Container>
             </section>
