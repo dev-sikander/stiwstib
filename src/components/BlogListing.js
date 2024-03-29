@@ -2,9 +2,7 @@ import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from '@/styles/BlogListBody.module.css'
 
-
 const BlogListing = () => {
-
     return (
         <>
             <section className={styles.blogListBody}>
