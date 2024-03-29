@@ -1,47 +1,58 @@
-.houston{
+.houston {
   margin-bottom: 70px;
 }
 
-.applicationlong{
+.applicationlong {
   height: 430px;
   overflow: auto;
 }
 
+.active {
+  color: #F32F53;
+}
 
-.understand h5{
+.heading_text {
+  color: black;
+}
+
+.understand h5 {
   padding-top: 20px;
   font-family: 'SF-Pro-Display';
   color: black;
 }
-.applicationlong  a{
-   color: black;
+
+.applicationlong a {
+  color: black;
 }
-.applicationlong h3{
+
+.applicationlong h3 {
   font-family: 'SF-Pro-Display';
   font-size: 18px;
   font-weight: bold;
   padding-bottom: 4%;
-  letter-spacing: 1px;
-  color: black;
+  letter-spacing: 1px; 
   text-align: left;
   padding-left: 20px;
 }
 
 
-.posto{
-margin-top: 70px;
-margin-bottom: 70px;
+.posto {
+  margin-top: 70px;
+  margin-bottom: 70px;
   height: 520px;
   overflow: auto;
 }
-.houston{
+
+.houston {
   background-color: #F3F3F3;
 }
-.tone{
+
+.tone {
   align-items: center;
 }
-.application{
- 
+
+.application {
+
   height: 600px;
   padding-left: 30px;
   padding-right: 40px;
@@ -57,23 +68,23 @@ margin-bottom: 70px;
   font-weight: bold;
   color: #F32F53;
   font-family: 'SF-Pro-Display';
-    letter-spacing: 2px;
+  letter-spacing: 2px;
   padding-bottom: 10px;
 }
 
-.application a{
+.application a {
   width: fit-content;
-    height: 45px;
-    background-color: #f32f53;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    border-radius: 5px;
-    font-weight: 600;
-    padding-left: 50px;
-    padding-right: 50px;
-    font-size: 14px;
+  height: 45px;
+  background-color: #f32f53;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 5px;
+  font-weight: 600;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 14px;
 }
 
 .understand h3 {
@@ -87,34 +98,39 @@ margin-bottom: 70px;
   color: white;
   font-size: 37px;
   font-family: 'SF-Pro-Display';
-    letter-spacing: 2px;
+  letter-spacing: 2px;
   font-weight: bold;
 }
+
 .understand h2 {
   color: black;
   font-size: 30px;
   font-family: 'SF-Pro-Display';
-    letter-spacing: 2px;
+  letter-spacing: 2px;
   font-weight: bold;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.understand  p{
+
+.understand p {
   font-size: 14px;
 }
-.understand ul li{
+
+.understand ul li {
   position: relative;
   margin-bottom: 7px;
   font-size: 16px;
   font-weight: 500;
 }
-.understand ul{
+
+.understand ul {
   margin: 0;
   padding-left: 20px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.understand ul li::before{
+
+.understand ul li::before {
   position: absolute;
   content: "";
   background-color: #F32F53;
@@ -124,9 +140,10 @@ margin-bottom: 70px;
   left: -19px;
   margin-top: 9px;
   font-family: 'SF-Pro-Display';
-    letter-spacing: 2px;
+  letter-spacing: 2px;
 }
-.understand{
+
+.understand {
   height: auto;
   padding-left: 30px;
   padding-right: 40px;
@@ -139,45 +156,48 @@ margin-bottom: 70px;
 
 }
 
-@media screen and (max-width: 1200px) { 
+@media screen and (max-width: 1200px) {
 
   .application h2 {
     font-size: 30px;
-}
+  }
 
 }
 
-@media screen and (max-width: 991px) { 
+@media screen and (max-width: 991px) {
 
-  .houston{
+  .houston {
     padding-top: 70px;
     padding-bottom: 70px;
   }
 
-  .understand  {
+  .understand {
     height: auto;
     padding-left: 30px;
     padding-right: 40px;
     overflow: auto;
     padding-top: 50px;
+  }
+
 }
 
- }
-@media screen and (max-width: 767px) { 
+@media screen and (max-width: 767px) {
 
   .houston {
     padding-bottom: 0px;
-}
-.understand  h2 {
-  font-size: 25px;
-}
+  }
+
+  .understand h2 {
+    font-size: 25px;
+  }
 }
 
-@media screen and (max-width: 480px) {  
+@media screen and (max-width: 480px) {
 
   .understand h2 {
     font-size: 16px;
-}
+  }
+
   .applicationlong h3 {
     font-size: 14px;
   }
@@ -185,10 +205,11 @@ margin-bottom: 70px;
 
   .application h2 {
     font-size: 20px;
-}
-.application a {
-  padding-left: 15px;
-  padding-right: 15px;
-  font-size: 13px;
-}
+  }
+
+  .application a {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 13px;
+  }
 }
