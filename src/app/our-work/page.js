@@ -1,5 +1,5 @@
 "use client"
- 
+
 import React, { useState, useEffect } from "react";
 //components
 import WorkBanner from "../../components/WorkBanner";
@@ -21,18 +21,28 @@ export default function OurWork() {
     }, 1000);
     return () => clearTimeout(timeout);
   }, []);
-
+  const [showFolds, setShowFolds] = useState(false);
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setShowFolds(true);
+    }, 2000);
+    return () => clearTimeout(timeout);
+  }, []);
   return (
-    <> 
+    <>
       <WorkBanner />
-      <WorkBody />
-      <NewHomeGlobal />
-      <Capabilities />
-      <NewHomeSlider />
-      <Technologieswe />
-      <Homenextproject title="Brace yourself for an App-venture!" />
-      <Faqs />
-      <HomeLocation />
+      {showFolds &&
+        <>
+          <WorkBody />
+          <NewHomeGlobal />
+          <Capabilities />
+          <NewHomeSlider />
+          <Technologieswe />
+          <Homenextproject title="Brace yourself for an App-venture!" />
+          <Faqs />
+          <HomeLocation />
+        </>
+      }
     </>
   );
 }

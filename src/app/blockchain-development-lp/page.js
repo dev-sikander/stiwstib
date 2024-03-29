@@ -1,5 +1,6 @@
 "use client"
- 
+
+import { useEffect, useState } from "react";
 import styles from "@/styles/blockchain/Home.module.css";
 //
 import Banners from "../../components/blockchain/Banners";
@@ -16,9 +17,7 @@ import Contact from "../../components/Contact";
 //
 import typeofbooks from "/public/blockchain/images/logo-1.png";
 
-
 export default function Home() {
-
   const text = (
     <span>
       Join hands with the best blockchain app development company to build
@@ -142,49 +141,59 @@ export default function Home() {
       we offer end-to-end blockchain development services under one roof.
     </span>
   );
-
+  const [showFolds, setShowFolds] = useState(false);
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setShowFolds(true);
+    }, 2000);
+    return () => clearTimeout(timeout);
+  }, []);
   return (
-    <> 
+    <>
       <main className={styles.main}>
         <Banners />
-        <Logoslide />
-        <LeftContent
-          title={title}
-          text={text}
-          subtext={subtext}
-          number="1-844-400-0025"
-          discuss="Hire Blockchain Developer"
-          image={typeofbooks}
-          whychooseclass="marketyourbook"
-        />
-        <Blockchain hireTile={hireTile} text={text} hireSubTile={hireSubTile} />
-        <Revolution
-          revTile1={revTile11}
-          revSubTile1={revSubTile}
-          revpara={revpara}
-        />
-        <NextGen
-          nextTtitle1={NextTtitle1}
-          nextsub={Nextsub}
-          nextPara={NextPara}
-          poster="true"
-          poster1=""
-        />
-        <Standing />
-        <NextGen
-          nextTtitle1={NextTtitle2}
-          nextPara={NextPara2}
-          poster1="true"
-          poster=""
-        />
-        <Expertise exTitle={exTitle} exPara={exPara} />
-        <Process />
-        <WhyChooseUs
-          whyTitle={whyTitle}
-          whySubTitle={whySubTitle}
-          whyPara={whyPara}
-        />
-        <Contact newBg="newBgSpc" />
+        {showFolds &&
+          <>
+            <Logoslide />
+            <LeftContent
+              title={title}
+              text={text}
+              subtext={subtext}
+              number="1-844-400-0025"
+              discuss="Hire Blockchain Developer"
+              image={typeofbooks}
+              whychooseclass="marketyourbook"
+            />
+            <Blockchain hireTile={hireTile} text={text} hireSubTile={hireSubTile} />
+            <Revolution
+              revTile1={revTile11}
+              revSubTile1={revSubTile}
+              revpara={revpara}
+            />
+            <NextGen
+              nextTtitle1={NextTtitle1}
+              nextsub={Nextsub}
+              nextPara={NextPara}
+              poster="true"
+              poster1=""
+            />
+            <Standing />
+            <NextGen
+              nextTtitle1={NextTtitle2}
+              nextPara={NextPara2}
+              poster1="true"
+              poster=""
+            />
+            <Expertise exTitle={exTitle} exPara={exPara} />
+            <Process />
+            <WhyChooseUs
+              whyTitle={whyTitle}
+              whySubTitle={whySubTitle}
+              whyPara={whyPara}
+            />
+            <Contact newBg="newBgSpc" />
+          </>
+        }
       </main>
     </>
   );

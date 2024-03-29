@@ -1,6 +1,6 @@
 "use client"
- 
-import React from "react";
+
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
 // css
 import styles from "@/styles/bannerlp.module.css";
@@ -24,9 +24,15 @@ import NewFaqslp from "../../components/NewFaqslp";
 import HomeLocationlp from "../../components/HomeLocationlp";
 
 export default function gamedevelopmentcompany() {
-
+  const [showFolds, setShowFolds] = useState(false);
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setShowFolds(true);
+    }, 2000);
+    return () => clearTimeout(timeout);
+  }, []);
   return (
-    <> 
+    <>
       <Bannerlp
         title={
           <>
@@ -54,38 +60,42 @@ export default function gamedevelopmentcompany() {
         }
         newHomeBgprops="newHomeBg"
       />
-      <People People="people" />
-      <HomeBannerSliderlp />
-      <LpForm
-        addresClass="iosclass"
-        heading={`Discover excellence in app innovation with Bitswits, a leading mobile app development company. We turn your ideas into impactful mobile app solutions. Our expertise isn't just in coding; it's about understanding your needs and delivering an app that resonates with your audience. Experience the Bitswits difference: where expertise meets excellence, and your vision becomes a reality.`}
-      />
-      <Nothing Nothing="nothing" />
-      <Hurdles />
-      <Expertapp expertapp="expertapp" />
-      <ProjectProcesslp1 processclass="process" />
-      <LpChoose transform="transform" />
-      <Technologieslp />
-      <Justbuilditlp
-        title={
-          <>
-            <h2 className={stylesjust.just}>Just Build It.</h2>
-          </>
-        }
-        para={
-          <>
-            <h3 className={stylesjust.develop}>
-              Design, Develop, and Grow with BitsWits.
-            </h3>
-          </>
-        }
-        slide="slide1lp"
-      />
-      <Globallplp6 />
-      <Partnerships />
-      <Formnewlp />
-      <NewFaqslp />
-      <HomeLocationlp />
+      {showFolds &&
+        <>
+          <People People="people" />
+          <HomeBannerSliderlp />
+          <LpForm
+            addresClass="iosclass"
+            heading={`Discover excellence in app innovation with Bitswits, a leading mobile app development company. We turn your ideas into impactful mobile app solutions. Our expertise isn't just in coding; it's about understanding your needs and delivering an app that resonates with your audience. Experience the Bitswits difference: where expertise meets excellence, and your vision becomes a reality.`}
+          />
+          <Nothing Nothing="nothing" />
+          <Hurdles />
+          <Expertapp expertapp="expertapp" />
+          <ProjectProcesslp1 processclass="process" />
+          <LpChoose transform="transform" />
+          <Technologieslp />
+          <Justbuilditlp
+            title={
+              <>
+                <h2 className={stylesjust.just}>Just Build It.</h2>
+              </>
+            }
+            para={
+              <>
+                <h3 className={stylesjust.develop}>
+                  Design, Develop, and Grow with BitsWits.
+                </h3>
+              </>
+            }
+            slide="slide1lp"
+          />
+          <Globallplp6 />
+          <Partnerships />
+          <Formnewlp />
+          <NewFaqslp />
+          <HomeLocationlp />
+        </>
+      }
     </>
   );
 }
