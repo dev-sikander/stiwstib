@@ -16,7 +16,7 @@ import EcommerceBenefits from "../../components/EcommerceBenefits";
 import EcommerceService from "../../components/EcommerceService";
 import EcommerceApp from "../../components/EcommerceApp";
 import EcommerceExperience from "../../components/EcommerceExperience";
-import EcommerceScale from "../../components/EcommerceScale"; 
+import EcommerceScale from "../../components/EcommerceScale";
 
 const Ecommerce = () => {
   const [isSliderActive, setIsSliderActive] = useState(true);
@@ -75,7 +75,13 @@ const Ecommerce = () => {
       },
     ],
   };
-
+  const [showFolds, setShowFolds] = useState(false);
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setShowFolds(true);
+    }, 2000);
+    return () => clearTimeout(timeout);
+  }, []);
   return (
     <>
       {/* <EcommerceBanner /> */}
@@ -236,14 +242,18 @@ const Ecommerce = () => {
           </div>
         </div>
       </section>
-      <EcommercePLatform />
-      <EcommerceSlider />
-      <EcommerceShoppingApp />
-      <EcommerceBenefits />
-      <EcommerceService />
-      <EcommerceApp />
-      <EcommerceExperience />
-      <EcommerceScale />
+      {showFolds &&
+        <>
+          <EcommercePLatform />
+          <EcommerceSlider />
+          <EcommerceShoppingApp />
+          <EcommerceBenefits />
+          <EcommerceService />
+          <EcommerceApp />
+          <EcommerceExperience />
+          <EcommerceScale />
+        </>
+      }
     </>
   );
 };

@@ -1,5 +1,5 @@
 "use client"
- 
+
 import React, { useState, useEffect } from "react";
 // slick slider
 import Slider from "react-slick";
@@ -32,7 +32,6 @@ import iphoneappdesigning from "/public/newHomePage/images/mobileimages/newMaint
 import hybridiphone from "/public/newHomePage/images/mobileimages/newMaintain6.png";
 import appSeven from "/public/newHomePage/images/mobileimages/newMaintain7.png";
 import appEight from "/public/newHomePage/images/mobileimages/newMaintain8.png";
-
 
 export default function gamedevelopmentcompany() {
 
@@ -163,50 +162,60 @@ export default function gamedevelopmentcompany() {
       ],
     },
   ];
-
+  const [showFolds, setShowFolds] = useState(false);
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setShowFolds(true);
+    }, 2000);
+    return () => clearTimeout(timeout);
+  }, []);
   return (
-    <> 
+    <>
       <Bannerlp2 newHomeBgprops="newHomeBg" />
-      <Formlp2 />
-      <Nothinglp2 Nothing="nothing1" />
-      {isSliderActive ? (
+      {showFolds &&
         <>
-          <NewMaintain
-            subtitle="Services"
-            title1new={
+          <Formlp2 />
+          <Nothinglp2 Nothing="nothing1" />
+          {isSliderActive ? (
+            <>
+              <NewMaintain
+                subtitle="Services"
+                title1new={
+                  <>
+                    Our Mobile App Development <br></br> Services And Solution
+                  </>
+                }
+              />
+            </>
+          ) : (
+            <ServicesMaintainmobile severcedata={severcedata} />
+          )}
+          <Wework wework="wework" />
+          <Startups startups="startups" />
+          <ProjectProcesslp processclass="process1" />
+          <Justbuilditlp
+            title={
               <>
-                Our Mobile App Development <br></br> Services And Solution
+                <h2 className={stylesjust.just}>Just Build It.</h2>
               </>
             }
+            para={
+              <>
+                <h3 className={stylesjust.develop}>
+                  Design, Develop, and Grow with BitsWits.
+                </h3>
+              </>
+            }
+            slide="slide2"
           />
+          <Technologieslp />
+          <Globallp />
+          <Transformideas transform="transform" />
+          <Formnewlp2 />
+          <NewFaqslp />
+          <HomeLocationlp />
         </>
-      ) : (
-        <ServicesMaintainmobile severcedata={severcedata} />
-      )}
-      <Wework wework="wework" />
-      <Startups startups="startups" />
-      <ProjectProcesslp processclass="process1" />
-      <Justbuilditlp
-        title={
-          <>
-            <h2 className={stylesjust.just}>Just Build It.</h2>
-          </>
-        }
-        para={
-          <>
-            <h3 className={stylesjust.develop}>
-              Design, Develop, and Grow with BitsWits.
-            </h3>
-          </>
-        }
-        slide="slide2"
-      />
-      <Technologieslp />
-      <Globallp />
-      <Transformideas transform="transform" />
-      <Formnewlp2 />
-      <NewFaqslp />
-      <HomeLocationlp />
+      }
     </>
   );
 }

@@ -24,9 +24,15 @@ export default function MobileDeveloper() {
 
     return () => clearTimeout(timeout);
   }, []);
-
+  const [showFolds, setShowFolds] = useState(false);
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setShowFolds(true);
+    }, 2000);
+    return () => clearTimeout(timeout);
+  }, []);
   return (
-    <> 
+    <>
       <Banner
         subtitle={<> Hire </>}
         title={<> Hire Mobile App Developer </>}
@@ -39,16 +45,20 @@ export default function MobileDeveloper() {
         banImg={banImg}
         bannerClass="mbl"
       />
-      <NewAddress />
-      <HireLogoSlider />
-      <NewHomeAbout addClass="mblHire" />
-      <HireServices />
-      <HireBenifitsMbl />
-      <HireTiming />
-      <Technologieswe />
-      <Homenextproject title="Brace yourself for an App-venture!" />
-      <Faqs />
-      <HomeLocation />
+      {showFolds &&
+        <>
+          <NewAddress />
+          <HireLogoSlider />
+          <NewHomeAbout addClass="mblHire" />
+          <HireServices />
+          <HireBenifitsMbl />
+          <HireTiming />
+          <Technologieswe />
+          <Homenextproject title="Brace yourself for an App-venture!" />
+          <Faqs />
+          <HomeLocation />
+        </>
+      }
     </>
   );
 }
