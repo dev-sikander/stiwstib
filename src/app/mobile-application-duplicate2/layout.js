@@ -19,5 +19,10 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
-  return (children);
+  return (
+    <>
+      <meta name="robots" content="noindex" />
+      {children}
+    </>
+  );
 }

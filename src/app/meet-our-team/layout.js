@@ -1,19 +1,19 @@
 //===== Meta Data =====
 export const metadata = {
   //===== Meta Tags =====
-  title: "IOS App Development Company | Top IOS developers",
+  title: "Meet Our Team",
   description: "Looking for a top iOS app development company? Our team of expert IOS app developers at BitsWits, can turn your ideas into reality. Contact us to discuss your project today.",
   //===== OG Tags =====
   openGraph: {
-    title: 'IOS App Development Company | Top IOS developers',
+    title: 'Meet Our Team',
     description: 'Looking for a top iOS app development company? Our team of expert IOS app developers at BitsWits, can turn your ideas into reality. Contact us to discuss your project today.',
-    url: 'https://bitswits.co/ios-app-development/',
+    url: 'https://bitswits.co/meet-our-team/',
     siteName: 'BitsWits',
     locale: 'en_US',
     type: 'website',
   },
   //===== Canonical =====
-  alternates: { canonical: 'https://bitswits.co/ios-app-development/' },
+  alternates: { canonical: 'https://bitswits.co/meet-our-team/' },
   //===== GEO Tags =====
   other: {},
 }

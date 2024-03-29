@@ -1,19 +1,19 @@
 //===== Meta Data =====
 export const metadata = {
   //===== Meta Tags =====
-  title: "IOS App Development Company | Top IOS developers",
-  description: "Looking for a top iOS app development company? Our team of expert IOS app developers at BitsWits, can turn your ideas into reality. Contact us to discuss your project today.",
+  title: "BitsWits",
+  description: "Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life.",
   //===== OG Tags =====
   openGraph: {
-    title: 'IOS App Development Company | Top IOS developers',
-    description: 'Looking for a top iOS app development company? Our team of expert IOS app developers at BitsWits, can turn your ideas into reality. Contact us to discuss your project today.',
-    url: 'https://bitswits.co/ios-app-development/',
+    title: 'BitsWits',
+    description: 'Apps that simplify your life, one click at a time, BitsWits is your go-to destination for top mobile app developers who can help you bring your ideas to life.',
+    url: 'https://bitswits.co/marketing-partnership-app-development-case-study/',
     siteName: 'BitsWits',
     locale: 'en_US',
     type: 'website',
   },
   //===== Canonical =====
-  alternates: { canonical: 'https://bitswits.co/ios-app-development/' },
+  alternates: { canonical: 'https://bitswits.co/marketing-partnership-app-development-case-study/' },
   //===== GEO Tags =====
   other: {},
 }
