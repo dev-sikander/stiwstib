@@ -94,7 +94,7 @@ export default function Nothinglp2(props) {
 
                                 </Slider>
                                 <div className='mt-5'>
-                                    <Link href="tel:+18335006007" className={styles.btnpost}>Begin Your Success Story : Connect Now</Link>
+                                    <Link href="tel:8335006007" className={styles.btnpost}>Begin Your Success Story : Connect Now</Link>
                                 </div>
                             </div>
                         </Col>

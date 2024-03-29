@@ -232,7 +232,7 @@ const EcommerceBanner = () => {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="tel:+18335006007" className='d-flex align-items-center'>
+                                    <Link href="tel:8335006007" className='d-flex align-items-center'>
                                         <Image src={Phone} alt='email' width={18} height={18} />
                                         <span className='font14 text-white font-medium ms-2'>Call Now</span>
                                     </Link>
@@ -247,7 +247,7 @@ const EcommerceBanner = () => {
                             <p className={`bg-black d-flex align-items-center justify-content-center w-100 text-white font15 mb-0 ${styles.ankerTag}`}>
                                 <Image src={PhoneTwo} alt='Phone' width={18} height={18} className='' />
                                 <span className='ms-2'>Let's discuss your project:</span>
-                                <Link href="tel:+18335006007" className='ms-2 text-white font-medium'>+1 833 500 6007</Link>
+                                <Link href="tel:8335006007" className='ms-2 text-white font-medium'>+1 833 500 6007</Link>
 
                             </p>
                             <Form className={styles.forms} onSubmit={handleSubmit}>
@@ -269,7 +269,7 @@ const EcommerceBanner = () => {
                                             </div>
                                             <div className='text'>
                                                 <span className='d-block text-white font15 font-medium pt-2'>USA</span>
-                                                <Link href="tel:+18335006007" className='d-block text-white font12 font-regular pt-2'>+1 833 500 6007</Link>
+                                                <Link href="tel:8335006007" className='d-block text-white font12 font-regular pt-2'>+1 833 500 6007</Link>
                                             </div>
                                         </div>
                                     </Col>
@@ -291,7 +291,7 @@ const EcommerceBanner = () => {
                                             </div>
                                             <div className='text'>
                                                 <span className='d-block text-white font15 font-medium pt-2'>MALAYSIA</span>
-                                                <Link href="tel:+18335006007" className='d-block text-white font12 font-regular pt-2'>+1 833 500 6007</Link>
+                                                <Link href="tel:8335006007" className='d-block text-white font12 font-regular pt-2'>+1 833 500 6007</Link>
                                             </div>
                                         </div>
                                     </Col>

@@ -8,7 +8,7 @@ import prev from "/public/homeslideimg/prev.webp";
 
 const itemData = [
     {
-        linkHref: "tel:+18335006007",
+        linkHref: "tel:8335006007",
         linkText: "Connect Now",
     },
 ];

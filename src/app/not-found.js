@@ -16,7 +16,7 @@ const Error = () => {
                             <p className="font18 fw400 color-white t-center font-f mb-4">It looks like nothing was found at this location. Maybe try a search?</p>
                             <div className='mt-4 t-center'>
                                 <Link href="javascript:$zopim.livechat.window.show();" className={styles.btn404}>LET'S DISCUSS</Link>
-                                <Link href="tel:13123795987" className={styles.btn404}>+1 312 379 5987</Link>
+                                <Link href="tel:3123795987" className={styles.btn404}>+1 312 379 5987</Link>
                             </div>
                         </Col>
                     </Row>

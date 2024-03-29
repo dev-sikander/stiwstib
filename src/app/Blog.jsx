@@ -6,10 +6,10 @@ import { Container, Row, Col } from 'react-bootstrap'
 import styles from '@/styles/BlogListBody.module.css'
 // 
 import { getPostList } from "@/lib/posts";
-import FeaturedImage from "../components/FeaturedImage";
 import Date from "../components/Date";
 import LoadMore from "../components/LoadMore";
 import BlogListing from '../components/BlogListing'
+import FeaturedImage from "../components/FeaturedImage";
 //
 import arrow from '/public/images/blogBanners/right-arrow.webp'
 

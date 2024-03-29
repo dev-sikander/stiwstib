@@ -17,7 +17,7 @@ const Globalmap = (props) => {
                   One-on-One</h3>
                 <h4>Office #101, 32 Street, Al Mujarrah, Sharjah</h4>
                 <Link className={styles.timr} href="javascript:$zopim.livechat.window.show();">Let's Chat</Link>
-                <p className="black">Call us at <Link className={styles.num} href="tel:971551659060">+971 551 659060</Link> </p>
+                <p className="black">Call us at <Link className={styles.num} href="tel:+971551659060">+971 551 659060</Link> </p>
               </div>
             </Col>
             <Col lg={6} className="p-0">

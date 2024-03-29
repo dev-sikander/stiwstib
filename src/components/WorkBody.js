@@ -31,7 +31,7 @@ const WorkBody = () => {
                                 <p>
                                     The increasing inclination towards technology has changed almost every facet of life. And the food delivery industry is no different. Today, people order food, be it junk or homemade, to be delivered right to their doorstep. And this, in turn, has caused a substantial change in consumer preferences. Nowadays, most, if not all, food outlets work in collaboration with food delivery companies to reach a wide range of audiences and expand their business.
                                 </p>
-                                <Link className={`${styles.btns}`} href="tel:+18335006007">Book a Call</Link>
+                                <Link className={`${styles.btns}`} href="tel:8335006007">Book a Call</Link>
                             </div>
                         </Col>
                         <Col lg={6}>
@@ -51,7 +51,7 @@ const WorkBody = () => {
                                 <p>
                                     The increasing inclination towards technology has changed almost every facet of life. And the food delivery industry is no different. Today, people order food, be it junk or homemade, to be delivered right to their doorstep. And this, in turn, has caused a substantial change in consumer preferences. Nowadays, most, if not all, food outlets work in collaboration with food delivery companies to reach a wide range of audiences and expand their business.
                                 </p>
-                                <Link className={`${styles.btns}`} href="tel:+18335006007">Book a Call</Link>
+                                <Link className={`${styles.btns}`} href="tel:8335006007">Book a Call</Link>
                             </div>
                         </Col>
                         <Col lg={6}>
@@ -71,7 +71,7 @@ const WorkBody = () => {
                                 <p>
                                     The increasing inclination towards technology has changed almost every facet of life. And the food delivery industry is no different. Today, people order food, be it junk or homemade, to be delivered right to their doorstep. And this, in turn, has caused a substantial change in consumer preferences. Nowadays, most, if not all, food outlets work in collaboration with food delivery companies to reach a wide range of audiences and expand their business.
                                 </p>
-                                <Link className={`${styles.btns}`} href="tel:+18335006007">Book a Call</Link>
+                                <Link className={`${styles.btns}`} href="tel:8335006007">Book a Call</Link>
                             </div>
                         </Col>
                         <Col lg={6}>
@@ -91,7 +91,7 @@ const WorkBody = () => {
                                 <p>
                                     The increasing inclination towards technology has changed almost every facet of life. And the food delivery industry is no different. Today, people order food, be it junk or homemade, to be delivered right to their doorstep. And this, in turn, has caused a substantial change in consumer preferences. Nowadays, most, if not all, food outlets work in collaboration with food delivery companies to reach a wide range of audiences and expand their business.
                                 </p>
-                                <Link className={`${styles.btns}`} href="tel:+18335006007">Book a Call</Link>
+                                <Link className={`${styles.btns}`} href="tel:8335006007">Book a Call</Link>
                             </div>
                         </Col>
                         <Col lg={6}>
@@ -111,7 +111,7 @@ const WorkBody = () => {
                                 <p>
                                     The increasing inclination towards technology has changed almost every facet of life. And the food delivery industry is no different. Today, people order food, be it junk or homemade, to be delivered right to their doorstep. And this, in turn, has caused a substantial change in consumer preferences. Nowadays, most, if not all, food outlets work in collaboration with food delivery companies to reach a wide range of audiences and expand their business.
                                 </p>
-                                <Link className={`${styles.btns}`} href="tel:+18335006007">Book a Call</Link>
+                                <Link className={`${styles.btns}`} href="tel:8335006007">Book a Call</Link>
                             </div>
                         </Col>
                         <Col lg={6}>
@@ -131,7 +131,7 @@ const WorkBody = () => {
                                 <p>
                                     The increasing inclination towards technology has changed almost every facet of life. And the food delivery industry is no different. Today, people order food, be it junk or homemade, to be delivered right to their doorstep. And this, in turn, has caused a substantial change in consumer preferences. Nowadays, most, if not all, food outlets work in collaboration with food delivery companies to reach a wide range of audiences and expand their business.
                                 </p>
-                                <Link className={`${styles.btns}`} href="tel:+18335006007">Book a Call</Link>
+                                <Link className={`${styles.btns}`} href="tel:8335006007">Book a Call</Link>
                             </div>
                         </Col>
                         <Col lg={6}>
@@ -151,7 +151,7 @@ const WorkBody = () => {
                                 <p>
                                     The increasing inclination towards technology has changed almost every facet of life. And the food delivery industry is no different. Today, people order food, be it junk or homemade, to be delivered right to their doorstep. And this, in turn, has caused a substantial change in consumer preferences. Nowadays, most, if not all, food outlets work in collaboration with food delivery companies to reach a wide range of audiences and expand their business.
                                 </p>
-                                <Link className={`${styles.btns}`} href="tel:+18335006007">Book a Call</Link>
+                                <Link className={`${styles.btns}`} href="tel:8335006007">Book a Call</Link>
                             </div>
                         </Col>
                         <Col lg={6}>
@@ -171,7 +171,7 @@ const WorkBody = () => {
                                 <p>
                                     The increasing inclination towards technology has changed almost every facet of life. And the food delivery industry is no different. Today, people order food, be it junk or homemade, to be delivered right to their doorstep. And this, in turn, has caused a substantial change in consumer preferences. Nowadays, most, if not all, food outlets work in collaboration with food delivery companies to reach a wide range of audiences and expand their business.
                                 </p>
-                                <Link className={`${styles.btns}`} href="tel:+18335006007">Book a Call</Link>
+                                <Link className={`${styles.btns}`} href="tel:8335006007">Book a Call</Link>
                             </div>
                         </Col>
                         <Col lg={6}>
@@ -191,7 +191,7 @@ const WorkBody = () => {
                                 <p>
                                     The increasing inclination towards technology has changed almost every facet of life. And the food delivery industry is no different. Today, people order food, be it junk or homemade, to be delivered right to their doorstep. And this, in turn, has caused a substantial change in consumer preferences. Nowadays, most, if not all, food outlets work in collaboration with food delivery companies to reach a wide range of audiences and expand their business.
                                 </p>
-                                <Link className={`${styles.btns}`} href="tel:+18335006007">Book a Call</Link>
+                                <Link className={`${styles.btns}`} href="tel:8335006007">Book a Call</Link>
                             </div>
                         </Col>
                         <Col lg={6}>
@@ -211,7 +211,7 @@ const WorkBody = () => {
                                 <p>
                                     The increasing inclination towards technology has changed almost every facet of life. And the food delivery industry is no different. Today, people order food, be it junk or homemade, to be delivered right to their doorstep. And this, in turn, has caused a substantial change in consumer preferences. Nowadays, most, if not all, food outlets work in collaboration with food delivery companies to reach a wide range of audiences and expand their business.
                                 </p>
-                                <Link className={`${styles.btns}`} href="tel:+18335006007">Book a Call</Link>
+                                <Link className={`${styles.btns}`} href="tel:8335006007">Book a Call</Link>
                             </div>
                         </Col>
                         <Col lg={6}>
@@ -231,7 +231,7 @@ const WorkBody = () => {
                                 <p>
                                     The increasing inclination towards technology has changed almost every facet of life. And the food delivery industry is no different. Today, people order food, be it junk or homemade, to be delivered right to their doorstep. And this, in turn, has caused a substantial change in consumer preferences. Nowadays, most, if not all, food outlets work in collaboration with food delivery companies to reach a wide range of audiences and expand their business.
                                 </p>
-                                <Link className={`${styles.btns}`} href="tel:+18335006007">Book a Call</Link>
+                                <Link className={`${styles.btns}`} href="tel:8335006007">Book a Call</Link>
                             </div>
                         </Col>
                         <Col lg={6}>
@@ -251,7 +251,7 @@ const WorkBody = () => {
                                 <p>
                                     The increasing inclination towards technology has changed almost every facet of life. And the food delivery industry is no different. Today, people order food, be it junk or homemade, to be delivered right to their doorstep. And this, in turn, has caused a substantial change in consumer preferences. Nowadays, most, if not all, food outlets work in collaboration with food delivery companies to reach a wide range of audiences and expand their business.
                                 </p>
-                                <Link className={`${styles.btns}`} href="tel:+18335006007">Book a Call</Link>
+                                <Link className={`${styles.btns}`} href="tel:8335006007">Book a Call</Link>
                             </div>
                         </Col>
                         <Col lg={6}>
@@ -271,7 +271,7 @@ const WorkBody = () => {
                                 <p>
                                     The increasing inclination towards technology has changed almost every facet of life. And the food delivery industry is no different. Today, people order food, be it junk or homemade, to be delivered right to their doorstep. And this, in turn, has caused a substantial change in consumer preferences. Nowadays, most, if not all, food outlets work in collaboration with food delivery companies to reach a wide range of audiences and expand their business.
                                 </p>
-                                <Link className={`${styles.btns}`} href="tel:+18335006007">Book a Call</Link>
+                                <Link className={`${styles.btns}`} href="tel:8335006007">Book a Call</Link>
                             </div>
                         </Col>
                         <Col lg={6}>

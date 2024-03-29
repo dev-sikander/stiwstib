@@ -58,7 +58,7 @@ const HireBenifits = (props) => {
                                                 <p key={index}>{para}</p>
                                             ))}
                                             <div className={styles.btns}>
-                                                <Link className={`${styles.btn} ${styles.btn1}`} href="tel:+18335006007">Book A Call</Link>
+                                                <Link className={`${styles.btn} ${styles.btn1}`} href="tel:8335006007">Book A Call</Link>
                                                 <Link className={`${styles.btn} ${styles.btn2}`} href="javascript:$zopim.livechat.window.show();">Live Chat</Link>
                                             </div>
                                         </div>
@@ -86,7 +86,7 @@ const HireBenifits = (props) => {
                                                     <p key={index}>{para}</p>
                                                 ))}
                                                 <div className={styles.btns}>
-                                                    <Link className={`${styles.btn} ${styles.btn1}`} href="tel:+18335006007">Book A Call</Link>
+                                                    <Link className={`${styles.btn} ${styles.btn1}`} href="tel:8335006007">Book A Call</Link>
                                                     <Link className={`${styles.btn} ${styles.btn2}`} href="javascript:$zopim.livechat.window.show();">Live Chat</Link>
                                                 </div>
                                             </div>

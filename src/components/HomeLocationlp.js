@@ -49,11 +49,11 @@ const HomeLocationlp = () => {
                                                             8 The Green STE 300, Dover DE 19901.
                                                         </p>
                                                         <Link className="f-16 f-500 white"
-                                                            href="tel:+18335006007">
+                                                            href="tel:8335006007">
                                                             +1 833 500 6007
                                                         </Link><br />
                                                         <Link className="f-16 f-500 white"
-                                                            href="tel:+13123795987">
+                                                            href="tel:3123795987">
                                                             +1 312 379 5987
                                                         </Link>
                                                     </div>
@@ -139,11 +139,11 @@ const HomeLocationlp = () => {
                                                                 8 The Green STE 300, Dover DE 19901.
                                                             </p>
                                                             <Link className="f-16 f-500 white"
-                                                                href="tel:+18335006007">
+                                                                href="tel:8335006007">
                                                                 +1 833 500 6007
                                                             </Link><br />
                                                             <Link className="f-16 f-500 white"
-                                                                href="tel:+13123795987">
+                                                                href="tel:3123795987">
                                                                 +1 312 379 5987
                                                             </Link>
                                                         </div>
@@ -155,11 +155,11 @@ const HomeLocationlp = () => {
                                                             <p className="f-14 f-500 f-montserrat white mb-0">350 South Grand Avenue, Los Angeles,
                                                                 CA 90071</p>
                                                             <Link className="f-16 f-500 white"
-                                                                href="tel:+13123795987">
+                                                                href="tel:3123795987">
                                                                 +1 312 379 5987
                                                             </Link><br />
                                                             <Link className="f-16 f-500 white"
-                                                                href="tel:+18335006007">
+                                                                href="tel:8335006007">
                                                                 +1 833 500 6007
                                                             </Link>
                                                         </div>

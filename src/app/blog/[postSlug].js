@@ -4,8 +4,8 @@ import Image from "next/image";
 import styles from '@/styles/InnerBlog.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 //
-import { getPostSlugs, getSinglePost } from "@/lib/posts";
-import Date from "@/components/Date";
+import { getPostSlugs, getSinglePost } from "../../../lib/posts";
+import Date from "../../components/Date";
 //
 import arrow from '../../public/images/blogBanners/right-arrow.webp'
 import logo from '../../public/images/icons/favicon.png'
