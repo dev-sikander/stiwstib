@@ -1,15 +1,13 @@
-"use client"
-
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { useState, useEffect } from 'react';
 import Axios from "axios";
 import { usePathname } from "next/navigation"
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from "@/styles/bannerdubainew.module.css";
 //
 import BannerImage from "@/public/newdubai/aroow.png"
+
 const Bannerdubai = (props) => {
     const [ip, setIP] = useState('');
     //creating function to load ip address from the API
@@ -20,6 +18,7 @@ const Bannerdubai = (props) => {
     useEffect(() => {
         getIPData()
     }, [])
+
     const [score, setScore] = useState('Submit');
 
     const [checkboxes, setCheckboxes] = useState([]);
@@ -32,7 +31,7 @@ const Bannerdubai = (props) => {
             setCheckboxes(checkboxes.filter((checkbox) => checkbox !== value));
         }
     };
-   const router = usePathname();
+    const router = usePathname();
     const currentRoute = router;
 
     const [pagenewurl, setPagenewurl] = useState('');
@@ -41,14 +40,12 @@ const Bannerdubai = (props) => {
         console.log(pagenewurl);
         setPagenewurl(pagenewurl);
     }, []);
-    const handleSubmit = async (e) => {
 
+    const handleSubmit = async (e) => {
         e.preventDefault()
         var currentdate = new Date().toLocaleString() + ''
-
         const data = {
             name: e.target.first.value,
-            last: e.target.last.value,
             email: e.target.email.value,
             phone: e.target.phone.value,
             comment: e.target.comment.value,
@@ -57,12 +54,10 @@ const Bannerdubai = (props) => {
             IP: `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
             currentdate: currentdate,
         }
-
         const JSONdata = JSON.stringify(data)
 
         setScore('Sending Data');
         console.log(JSONdata);
-
 
         fetch('api/emailapidubai/route', {
             method: 'POST',
@@ -78,8 +73,6 @@ const Bannerdubai = (props) => {
             }
         })
 
-
-
         let headersList = {
             "Accept": "*/*",
             "User-Agent": "Thunder Client (https://www.thunderclient.com)",
@@ -94,7 +87,6 @@ const Bannerdubai = (props) => {
             "Date": currentdate,
             "Time": currentdate,
             "JSON": JSONdata,
-
         });
 
         await fetch("https://sheetdb.io/api/v1/1ownp6p7a9xpi", {
@@ -102,24 +94,21 @@ const Bannerdubai = (props) => {
             body: bodyContent,
             headers: headersList
         });
+
         const { pathname } = router;
         if (pathname == pathname) {
             window.location.href = '/thank-you';
         }
-
     }
 
     return (
         <>
 
             <section className={styles[props.newHomeBgprops]} >
-
                 <Container className={` ${styles.conform}`}>
-
                     <Row className={`g-5 ${styles.applost}`}>
                         <Col xl={6}>
                             <div className={styles.oppp}>
-
                                 <div className={styles.newpound}>
                                     <h4 className='white'>Home</h4>
                                     <Image src={BannerImage} className='img-fluid' />
@@ -127,23 +116,17 @@ const Bannerdubai = (props) => {
                                     <Image src={BannerImage} className='img-fluid' />
                                     <h4 className='newfycolr'>Mobile App Development Company Dubai</h4>
                                 </div>
-
-
                                 <h2 className='f-60 white fw700 mb-4'>Mobile App Development
                                     Company Dubai</h2>
                                 <p className='font16 white fw500 mt-3 mb-lg-4'>Bitswits is revolutionizing mobile app development in Dubai, driving disruption to elevate the conventional process. Our approach promises a cutting-edge experience, ensuring success for businesses. Leveraging data-driven expertise, we redefine the landscape, delivering ingenious mobile applications to thrive in Dubai's lucrative market.</p>
                                 <Link href='javascript:$zopim.livechat.window.show();' className={styles.deliver}>Let’s Discuss Your Project</Link>
                             </div>
-
-
-
-
                         </Col>
-                        <Col xl={4}>
+                        <Col xl={5}>
                             <form className={styles.your} onSubmit={handleSubmit}>
-                                <h3 className='f-60 mb-4 white fw700'>Book a Free <br></br>Consultation</h3>
-                                <input type='text' minLength="4" name='first' required className='form-control' placeholder="First Name"></input>
-                                <input type='text' name='last' minLength="4" required className='form-control  mt-2' placeholder="Last Name"></input>
+                                <h3 className='f-60 mb-4 white fw700'>Book a Free Consultation</h3>
+                                <input type='text' minLength="4" name='first' required className='form-control' placeholder="Full Name"></input>
+
                                 <input type="tel" minLength="10" maxLength="13" pattern="[0-9]*" name='phone' required className='form-control mt-2' placeholder="Phone Number"></input>
                                 <input type='email' name='email' required className='form-control mt-2' placeholder="Email Address"></input>
                                 <textarea placeholder='Description' name='comment' className='form-control mt-2'></textarea>
@@ -154,8 +137,6 @@ const Bannerdubai = (props) => {
                         </Col>
                     </Row>
                 </Container>
-
-
             </section>
         </>
     )

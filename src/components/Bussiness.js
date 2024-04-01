@@ -4,17 +4,13 @@ import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
 import styles from "@/styles/Bussiness.module.css";
 //images
-
-import clutch from "/public/newdubai/clutch.png";
-
+import clutch from "@/public/newdubai/clutch.png";
+//
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-
-
 const Bussiness = () => {
-
 
   var clientsthink = {
     dots: false,
@@ -25,8 +21,6 @@ const Bussiness = () => {
     centerMode: true,
     centerPadding: '150px',
     responsive: [
-     
-    
       {
         breakpoint: 768,
         settings: {
@@ -46,9 +40,9 @@ const Bussiness = () => {
       },
     ],
 
-    
-  
-};
+
+
+  };
 
   return (
     <>
@@ -56,175 +50,165 @@ const Bussiness = () => {
         <Container fluid>
           <Row className="">
             <Col lg={12} className="p-0">
-                <h2 className={styles.qtech}>Our Business Associates on Working <br/>
+              <h2 className={styles.qtech}>Our Business Associates on Working <br />
                 with Bitswits</h2>
 
+              <Slider {...clientsthink} className={`${styles.clintSlider}`}>
+                <div className={styles.shoot}>
+                  <div className={styles.qfind}>
+                    <h4>Vivien Francis</h4>
+                    <p>Digital Marketing Consultant of Asia School of Business</p>
+                    <h3>"Everything has been flowing <br />
+                      pretty smoothly."</h3>
+                    <Link href="#">Check Review</Link>
 
-                <Slider {...clientsthink} className={`${styles.clintSlider}`}>
+                  </div>
+                  <div className={styles.quotwe}>
+                    <h5>5.0</h5>
+                    <div className={styles.freepost}>
+                      <h3>Quality</h3>
+                      <h4>5.0</h4>
+                    </div>
 
+                    <div className={styles.freepost}>
+                      <h3>Schedule</h3>
+                      <h4>4.0</h4>
+                    </div>
 
-                        <div className={styles.shoot}>
-                            <div className={styles.qfind}>
-                              <h4>Vivien Francis</h4>
-                              <p>Digital Marketing Consultant of Asia School of Business</p>
-                              <h3>"Everything has been flowing <br/>
-                                    pretty smoothly."</h3>
-                                    <Link href="#">Check Review</Link>
+                    <div className={styles.freepost}>
+                      <h3>Cost</h3>
+                      <h4>5.0</h4>
+                    </div>
 
-                            </div>
-                            <div className={styles.quotwe}>
-                              <h5>5.0</h5>
-                              <div className={styles.freepost}>
-                                <h3>Quality</h3>
-                                <h4>5.0</h4>
-                              </div>
+                    <div className={styles.freepost}>
+                      <h3>Willing to Refer</h3>
+                      <h4>5.0</h4>
+                    </div>
 
-                              <div className={styles.freepost}>
-                                <h3>Schedule</h3>
-                                <h4>4.0</h4>
-                              </div>
+                    <div className={styles.freepost1}>
+                      <Image src={clutch} className="img-fluid" />
+                    </div>
 
-                              <div className={styles.freepost}>
-                                <h3>Cost</h3>
-                                <h4>5.0</h4>
-                              </div>
+                  </div>
 
-                              <div className={styles.freepost}>
-                                <h3>Willing to Refer</h3>
-                                <h4>5.0</h4>
-                              </div>
+                </div>
 
-                              <div className={styles.freepost1}>
-                               <Image src={clutch} className="img-fluid" />
-                              </div>
-                            
-                            </div>
-                           
-                        </div>
+                <div className={styles.shoot}>
+                  <div className={styles.qfind}>
+                    <h4>Vivien Francis</h4>
+                    <p>Digital Marketing Consultant of Asia School of Business</p>
+                    <h3>"Everything has been flowing <br />
+                      pretty smoothly."</h3>
+                    <Link href="#">Check Review</Link>
 
-                        <div className={styles.shoot}>
-                            <div className={styles.qfind}>
-                              <h4>Vivien Francis</h4>
-                              <p>Digital Marketing Consultant of Asia School of Business</p>
-                              <h3>"Everything has been flowing <br/>
-                                    pretty smoothly."</h3>
-                                    <Link href="#">Check Review</Link>
+                  </div>
+                  <div className={styles.quotwe}>
+                    <h5>5.0</h5>
+                    <div className={styles.freepost}>
+                      <h3>Quality</h3>
+                      <h4>5.0</h4>
+                    </div>
 
-                            </div>
-                            <div className={styles.quotwe}>
-                              <h5>5.0</h5>
-                              <div className={styles.freepost}>
-                                <h3>Quality</h3>
-                                <h4>5.0</h4>
-                              </div>
+                    <div className={styles.freepost}>
+                      <h3>Schedule</h3>
+                      <h4>4.0</h4>
+                    </div>
 
-                              <div className={styles.freepost}>
-                                <h3>Schedule</h3>
-                                <h4>4.0</h4>
-                              </div>
+                    <div className={styles.freepost}>
+                      <h3>Cost</h3>
+                      <h4>5.0</h4>
+                    </div>
 
-                              <div className={styles.freepost}>
-                                <h3>Cost</h3>
-                                <h4>5.0</h4>
-                              </div>
+                    <div className={styles.freepost}>
+                      <h3>Willing to Refer</h3>
+                      <h4>5.0</h4>
+                    </div>
 
-                              <div className={styles.freepost}>
-                                <h3>Willing to Refer</h3>
-                                <h4>5.0</h4>
-                              </div>
+                    <div className={styles.freepost1}>
+                      <Image src={clutch} className="img-fluid" />
+                    </div>
 
-                              <div className={styles.freepost1}>
-                               <Image src={clutch} className="img-fluid" />
-                              </div>
-                            
-                            </div>
-                           
-                        </div>
+                  </div>
 
-                        <div className={styles.shoot}>
-                            <div className={styles.qfind}>
-                              <h4>Vivien Francis</h4>
-                              <p>Digital Marketing Consultant of Asia School of Business</p>
-                              <h3>"Everything has been flowing <br/>
-                                    pretty smoothly."</h3>
-                                    <Link href="#">Check Review</Link>
+                </div>
 
-                            </div>
-                            <div className={styles.quotwe}>
-                              <h5>5.0</h5>
-                              <div className={styles.freepost}>
-                                <h3>Quality</h3>
-                                <h4>5.0</h4>
-                              </div>
+                <div className={styles.shoot}>
+                  <div className={styles.qfind}>
+                    <h4>Vivien Francis</h4>
+                    <p>Digital Marketing Consultant of Asia School of Business</p>
+                    <h3>"Everything has been flowing <br />
+                      pretty smoothly."</h3>
+                    <Link href="#">Check Review</Link>
 
-                              <div className={styles.freepost}>
-                                <h3>Schedule</h3>
-                                <h4>4.0</h4>
-                              </div>
+                  </div>
+                  <div className={styles.quotwe}>
+                    <h5>5.0</h5>
+                    <div className={styles.freepost}>
+                      <h3>Quality</h3>
+                      <h4>5.0</h4>
+                    </div>
 
-                              <div className={styles.freepost}>
-                                <h3>Cost</h3>
-                                <h4>5.0</h4>
-                              </div>
+                    <div className={styles.freepost}>
+                      <h3>Schedule</h3>
+                      <h4>4.0</h4>
+                    </div>
 
-                              <div className={styles.freepost}>
-                                <h3>Willing to Refer</h3>
-                                <h4>5.0</h4>
-                              </div>
+                    <div className={styles.freepost}>
+                      <h3>Cost</h3>
+                      <h4>5.0</h4>
+                    </div>
 
-                              <div className={styles.freepost1}>
-                               <Image src={clutch} className="img-fluid" />
-                              </div>
-                            
-                            </div>
-                           
-                        </div>
-                     
-                        <div className={styles.shoot}>
-                            <div className={styles.qfind}>
-                              <h4>Vivien Francis</h4>
-                              <p>Digital Marketing Consultant of Asia School of Business</p>
-                              <h3>"Everything has been flowing <br/>
-                                    pretty smoothly."</h3>
-                                    <Link href="#">Check Review</Link>
+                    <div className={styles.freepost}>
+                      <h3>Willing to Refer</h3>
+                      <h4>5.0</h4>
+                    </div>
 
-                            </div>
-                            <div className={styles.quotwe}>
-                              <h5>5.0</h5>
-                              <div className={styles.freepost}>
-                                <h3>Quality</h3>
-                                <h4>5.0</h4>
-                              </div>
+                    <div className={styles.freepost1}>
+                      <Image src={clutch} className="img-fluid" />
+                    </div>
 
-                              <div className={styles.freepost}>
-                                <h3>Schedule</h3>
-                                <h4>4.0</h4>
-                              </div>
+                  </div>
 
-                              <div className={styles.freepost}>
-                                <h3>Cost</h3>
-                                <h4>5.0</h4>
-                              </div>
+                </div>
 
-                              <div className={styles.freepost}>
-                                <h3>Willing to Refer</h3>
-                                <h4>5.0</h4>
-                              </div>
+                <div className={styles.shoot}>
+                  <div className={styles.qfind}>
+                    <h4>Vivien Francis</h4>
+                    <p>Digital Marketing Consultant of Asia School of Business</p>
+                    <h3>"Everything has been flowing <br />
+                      pretty smoothly."</h3>
+                    <Link href="#">Check Review</Link>
 
-                              <div className={styles.freepost1}>
-                               <Image src={clutch} className="img-fluid" />
-                              </div>
-                            
-                            </div>
-                           
-                        </div>
-                     
-                    </Slider>
-             
+                  </div>
+                  <div className={styles.quotwe}>
+                    <h5>5.0</h5>
+                    <div className={styles.freepost}>
+                      <h3>Quality</h3>
+                      <h4>5.0</h4>
+                    </div>
+
+                    <div className={styles.freepost}>
+                      <h3>Schedule</h3>
+                      <h4>4.0</h4>
+                    </div>
+
+                    <div className={styles.freepost}>
+                      <h3>Cost</h3>
+                      <h4>5.0</h4>
+                    </div>
+
+                    <div className={styles.freepost}>
+                      <h3>Willing to Refer</h3>
+                      <h4>5.0</h4>
+                    </div>
+
+                    <div className={styles.freepost1}>
+                      <Image src={clutch} className="img-fluid" />
+                    </div>
+                  </div>
+                </div>
+              </Slider>
             </Col>
-
-
-          
           </Row>
         </Container>
       </section>

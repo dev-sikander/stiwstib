@@ -1,13 +1,15 @@
 "use client"
 import React from "react";
-import Blog from "../Blog";
 //Components
+import BlogListing from "@/src/components/BlogListing";
+import Blogs from "@/src/components/Blogs";
 
 export default function BlogHome() {
 
     return (
         <>
-            <Blog />
+            <BlogListing />
+            <Blogs />
         </>
     )
 }

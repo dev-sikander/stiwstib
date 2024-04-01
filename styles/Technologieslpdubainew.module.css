@@ -1,6 +1,5 @@
 .tech {
-
-  background-color: #F3F3F3;
+  background-color: #f3f3f3;
   padding-top: 80px;
   padding-bottom: 80px;
 }
@@ -19,20 +18,18 @@
   padding-bottom: 1%;
   margin-top: 5%;
   justify-content: space-between;
-  
 }
-.tech{
+.tech {
   position: relative;
-
 }
 
 .analpost .new1 {
   font-size: 18px;
   cursor: pointer;
   color: black;
-  opacity: .5;
+  opacity: 0.5;
 }
-.analpost div{
+.analpost div {
   padding-left: 30px;
   padding-right: 50px;
 }
@@ -48,7 +45,7 @@
 .active::before {
   position: absolute;
   content: "";
-  background-color: #F32F53;
+  background-color: #f32f53;
   width: auto;
   height: 4px;
   bottom: -44%;
@@ -57,12 +54,12 @@
   border-radius: 50px;
 }
 
-.stook{
+.stook {
   color: black;
   font-weight: 700;
   font-size: 35px;
 }
-.colpont{
+.colpont {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -72,39 +69,35 @@
   color: black;
 }
 
-.buld{
+.buld {
   width: 220px;
-    height: 45px;
-    background-color: #f32f53;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    border-radius: 10px;
-    font-weight: bold;
+  height: 45px;
+  background-color: #f32f53;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
 }
-
 
 @media screen and (min-width: 1400px) {
   .active:before {
     bottom: -54%;
   }
-  .york p{
+  .york p {
     padding-left: 70px;
     padding-right: 70px;
-  
   }
 }
 
 @media screen and (max-width: 1200px) {
   .tech {
-
     padding-bottom: 50px;
   }
 }
 
 @media screen and (max-width: 991px) {
-
   .tech {
     padding-top: 50px;
     padding-bottom: 70px;
@@ -119,12 +112,11 @@
     color: #fff;
     background-color: #000;
     border: 1px solid #909090;
+    margin: 0 auto;
   }
   .active::before {
     bottom: -67%;
   }
-
-
 
   .work {
     font-size: 35px;
@@ -171,8 +163,6 @@
 }
 
 @media screen and (max-width: 480px) {
-
-  
   .analpost div {
     color: #707070;
     font-size: 11px;
@@ -181,5 +171,5 @@
   .work {
     margin-top: 5%;
     padding-bottom: 5%;
-}
+  }
 }

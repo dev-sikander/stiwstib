@@ -29,7 +29,7 @@ const Justbuildit = () => {
     };
     return (
         <>
-            <section className={router.pathname == '/mobile-application-duplicate' ? styles.slide1 : styles.slide}>
+            <section className={router == '/mobile-application-duplicate' ? styles.slide1 : styles.slide}>
                 <Slider {...bannerslider} className='mt-5'>
                     <div className={styles.strpImg}>
                         <Image alt="BitsWits" src={banImg1} className="img-fluid" />

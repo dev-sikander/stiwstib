@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { useRouter } from "next/router";
+import { usePathname } from "next/navigation"
 import { Container, Row, Col } from "react-bootstrap";
 import Slider from "react-slick";
 import styles from "./Justbuildit.module.css";
@@ -32,7 +32,7 @@ const Justbuildit = (props) => {
   return (
     <>
       <section
-        className={`${router.pathname == "/mobile-application-duplicate"
+        className={`${router == "/mobile-application-duplicate"
           ? styles.slide1
           : styles.slide
           }  ${props.paddingBottom}`}

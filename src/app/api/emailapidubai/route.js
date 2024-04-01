@@ -2,7 +2,7 @@ const nodemailer = require("nodemailer");
 
 export default async function POST(req, res) {
     try {
-        const { name, last, phone, email, comment,checkboxesdata, IP, currentdate, pageUrl } = await req.body;
+        const { name, last, phone, email, comment, checkboxesdata, IP, currentdate, pageUrl } = await req.body;
         const brandname = 'Bitswits'
         const transporter = nodemailer.createTransport({
             service: "gmail",
@@ -77,7 +77,7 @@ export default async function POST(req, res) {
 
 
 
-        return res.json({ "message": "Email send sucessfully", "data": [name, last, phone, email, comment,checkboxesdata, brandname, IP, currentdate, pageUrl], "status": 200 });
+        return res.json({ "message": "Email send sucessfully", "data": [name, last, phone, email, comment, checkboxesdata, brandname, IP, currentdate, pageUrl], "status": 200 });
     } catch (error) {
         return res.json({ "message": "Failed to send Email", "data": error, "status": 500 });
     }

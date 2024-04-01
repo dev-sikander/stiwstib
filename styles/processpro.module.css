@@ -1,3 +1,7 @@
+.newcolorp{
+  background-image: linear-gradient(to right, black, black, white, white, white);
+}
+
 .application{
   background-color: black;
   height: 600px;
@@ -10,7 +14,7 @@
 }
 
 .application h2 {
-  font-size: 40px;
+  font-size: 30px;
   color: white;
   font-weight: bold;
   color: #F32F53;
@@ -88,6 +92,8 @@
   padding-left: 30px;
   padding-right: 40px;
   overflow: auto;
+  padding-top: 8%;
+
 
 
 }
@@ -101,6 +107,12 @@
 }
 
 @media screen and (max-width: 991px) { 
+
+
+  .newcolorp{
+    background-image: unset;
+  }
+
   .understand  {
     height: 400px;
     padding-left: 30px;
@@ -120,12 +132,18 @@
 
 @media screen and (max-width: 480px) {  
 
+  .application{
+    height: auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
   .application h2 {
     font-size: 20px;
 }
 .application a {
-  padding-left: 15px;
-  padding-right: 15px;
-  font-size: 13px;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 11px;
 }
 }

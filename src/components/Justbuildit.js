@@ -31,7 +31,7 @@ const Justbuildit = (props) => {
 
   return (
     <>
-      <section className={`${router.pathname == "/mobile-application-duplicate"
+      <section className={`${router == "/mobile-application-duplicate"
         ? styles.slide1
         : styles.slide
         }  ${props.paddingBottom} ${styles[props.assignClass]}`}

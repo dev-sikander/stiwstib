@@ -8,11 +8,10 @@ import styles from '@/styles/BlogListBody.module.css'
 import { getPostList } from "@/lib/posts";
 import Date from "../components/Date";
 import LoadMore from "../components/LoadMore";
-import BlogListing from '../components/BlogListing'
 import FeaturedImage from "../components/FeaturedImage";
 //
 import arrow from '/public/images/blogBanners/right-arrow.webp'
-
+//
 export async function getStaticProps() {
     const allPosts = await getPostList();
     return {
@@ -22,11 +21,10 @@ export async function getStaticProps() {
     }
 }
 
-const Blog = ({ allPosts }) => {
+const Blogs = ({ allPosts }) => {
     const [posts, setPosts] = useState(allPosts || { nodes: [] });
     return (
         <>
-            <BlogListing />
             <main>
                 <section className={`${styles.postList} pt-3 pt-lg-5`}>
                     <Container>
@@ -105,4 +103,4 @@ const Blog = ({ allPosts }) => {
     )
 }
 
-export default Blog
+export default Blogs

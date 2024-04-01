@@ -2,11 +2,10 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
-import styles from "../../styles/Faqsdubia.module.css";
+import styles from "@/styles/Faqsdubia.module.css";
 //
-import close from "/public/newdubai/close.png";
-import open from "/public/newdubai/do.png";
-
+import close from "@/public/newdubai/close.png";
+import open from "@/public/newdubai/do.png";
 
 const Faqdubai = (props) => {
     const [faqStates, setFaqStates] = useState(Array(props.faqsData.length).fill(false));
@@ -16,6 +15,7 @@ const Faqdubai = (props) => {
         setFaqStates(newFaqStates);
         setClassAdded(true);
     };
+
     return (
         <>
             <section className={`${styles.faqs} newfaqsgloble newlevel`}>

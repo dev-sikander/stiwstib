@@ -43,7 +43,7 @@ const Capabilities = () => {
 
     return (
         <>
-            <section className={router.pathname == '/mobile-application-duplicate' ? styles.home1 : styles.home}>
+            <section className={router == '/mobile-application-duplicate' ? styles.home1 : styles.home}>
                 <Container className='qtech'>
                     <Row className={styles.posttext}>
                         <Col xl={12}>

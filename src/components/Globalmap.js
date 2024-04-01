@@ -1,23 +1,22 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
 import styles from "@/styles/Globalmap.module.css";
-//images
- 
-const Globalmap = (props) => {
+
+const Globalmap = () => {
+
   return (
     <>
-      <section className={`${styles[props.transform]} ${props.marginTop}`}>
+      <section className={styles.mapGlobal}>
         <Container fluid>
-          <Row className="align-items-center gy-lg-5 gy-4">
+          <Row className="align-items-center">
             <Col lg={6} className="p-0">
               <div className={styles.newtimg}>
                 <h3>Meet Our Experts <br></br>
                   One-on-One</h3>
                 <h4>Office #101, 32 Street, Al Mujarrah, Sharjah</h4>
                 <Link className={styles.timr} href="javascript:$zopim.livechat.window.show();">Let's Chat</Link>
-                <p className="black">Call us at <Link className={styles.num} href="tel:+971551659060">+971 551 659060</Link> </p>
+                <p className="black mb-0">Call us at <Link className={styles.num} href="tel:+971551659060">+971 551 659060</Link> </p>
               </div>
             </Col>
             <Col lg={6} className="p-0">

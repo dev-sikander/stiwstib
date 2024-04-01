@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from 'react';
-import { useRouter } from "next/router";
+import { usePathname } from "next/navigation"
 import Link from "next/link";
 import {
   Nav,
@@ -21,8 +21,8 @@ import Banners from '@/components/Banners';
 
 function Header() {
 
- const router = usePathname();
-  const onHomepage = useMemo(() =>router === "/", [router.pathname]);
+  const router = usePathname();
+  const onHomepage = useMemo(() => router === "/", [router]);
 
   return (
     <>

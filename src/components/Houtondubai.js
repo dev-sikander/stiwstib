@@ -39,8 +39,6 @@ const Processpro = () => {
                                     <p>These figures give you a starting point, but in reality the costs are influenced by a range of factors that change over time. </p>
 
                                     <p>Calculating the cost involves various factors. Some of them are;</p>
-
-
                                     <ul>
                                         <li>How intricate your app idea is? </li>
 
@@ -60,15 +58,11 @@ const Processpro = () => {
                                     <p> We firmly believe that being cost-effective shouldn’t mean compromising the quality or functionality of the final product. </p>
 
                                     <p>Rest assured, we are dedicated to delivering both value and outstanding performance for our valued clients.      </p>
-
-
                                 </div>
-                                <div id="hou2" className={styles.understand}>
 
+                                <div id="hou2" className={styles.understand}>
                                     <h2>Cost Of Mobile App Development In Houston For A Startup</h2>
                                     <p>Estimating the expenses for app development in Houston involves multiple variables. For instance,</p>
-
-
 
                                     <ul>
                                         <li>The intricacy of the app </li>
@@ -98,6 +92,8 @@ const Processpro = () => {
 
 
                                 </div>
+
+
                                 <div id="hou3" className={styles.understand}>
 
                                     <h2>Cost Of Mobile App Development In Houston For Mid-Sized Businesses</h2>
@@ -117,6 +113,7 @@ const Processpro = () => {
 
 
                                 </div>
+
                                 <div id="hou4" className={styles.understand}>
 
                                     <h2>Cost Of App Development In Houston For Enterprises</h2>
@@ -140,6 +137,8 @@ const Processpro = () => {
 
 
                                 </div>
+
+
                                 <div id="hou5" className={styles.understand}>
 
                                     <h2>Cost Of App Development In Houston For Individuals</h2>
@@ -159,6 +158,7 @@ const Processpro = () => {
 
 
                                 </div>
+
                                 <div id="hou6" className={styles.understand}>
 
                                     <h2>Mobile App Development Costs For B2B Clients</h2>
@@ -182,6 +182,7 @@ const Processpro = () => {
 
 
                                 </div>
+
                                 <div id="hou7" className={styles.understand}>
 
                                     <h2>Mobile App Development Costs For B2C Customers</h2>
@@ -217,6 +218,7 @@ const Processpro = () => {
 
 
                                 </div>
+
                                 <div id="hou8" className={styles.understand}>
 
                                     <h2>Exploring Mobile App Development In Houston – Industries, Innovations, And Opportunities</h2>
@@ -250,6 +252,7 @@ const Processpro = () => {
 
 
                                 </div>
+
                                 <div id="hou9" className={styles.understand}>
 
                                     <h2>Unlocking Houston’s Digital Potential – Trango Tech’s Footprint</h2>
@@ -294,7 +297,11 @@ const Processpro = () => {
 
 
                                 </div>
+
+
+
                             </div>
+
                         </Col>
                     </Row>
                 </Container>
