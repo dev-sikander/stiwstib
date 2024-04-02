@@ -61,7 +61,7 @@ const HomeLocationlp = () => {
                                                         <p className="f-18 f-700 f-montserrat mb-1 f-uppercase text-white">
                                                             HOUSTON
                                                         </p>
-                                                        <Link className='f-14 f-500 f-montserrat white mb-1 d-block' href='https://maps.app.goo.gl/63N9VuGmbnpzLGmB6'>Williams Tower, 41st Floor 2800 Post Oak Blvd, Suite 4100 Houston, TX 77056</Link>
+                                                        <Link className='f-14 f-500 f-montserrat white mb-1 d-block' href='https://maps.app.goo.gl/oWks8ofWd5X8qVZs9'>Williams Tower, 41st Floor 2800 Post Oak Blvd, Suite 4100 Houston, TX 77056</Link>
                                                         <Link className="f-16 f-500 white"
                                                             href="tel:+17135657656">
                                                             +1 713 565 7656

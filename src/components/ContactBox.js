@@ -132,7 +132,7 @@ const ContactBox = () => {
                                                     </div>
 
                                                     <h3 className="font16 font-bold newfycolr mb-0 text-center">HOUSTON</h3>
-                                                    <Link className='font13 font-medium white mb-1 text-center' href='https://maps.app.goo.gl/63N9VuGmbnpzLGmB6'>Williams Tower, 41st Floor 2800 Post Oak Blvd, Suite 4100 Houston, TX 77056</Link>
+                                                    <Link className='font13 font-medium white mb-1 text-center' href='https://maps.app.goo.gl/oWks8ofWd5X8qVZs9'>Williams Tower, 41st Floor 2800 Post Oak Blvd, Suite 4100 Houston, TX 77056</Link>
                                                     <Link className='font14 white text-center mb-3' href='tel:+17135657656'>+1 713 565 7656</Link>
                                                     <div className={`${styles.locImg} ${styles.asiaImg}`}>
                                                         <Image src={houston} alt='Location' className='img-fluid' />
