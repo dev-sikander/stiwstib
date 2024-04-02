@@ -4,7 +4,8 @@ import { usePathname } from "next/navigation"
 
 const MetaData = () => {
     const pathname = usePathname();
-    const PagePath = pathname.asPath;
+    const PagePath = pathname;
+    console.log(PagePath)
     // =======================================
     const schemacon = {
         "@context": "https://schema.org",
@@ -426,7 +427,7 @@ const MetaData = () => {
     return (
         <>
             {
-                PagePath === '/5-mistakes-to-avoid-when-hiring-a-top-mobile-app-development-company' ? (
+                PagePath == '/5-mistakes-to-avoid-when-hiring-a-top-mobile-app-development-company' ? (
                     <Head>
                         <title>Mistakes To Avoid When Hiring a Mobile App Development Company</title>
                         <meta name="description" content='If you are looking for a mobile app development company, read about the 5 common mistakes businesses make when they hire a development company to create an app.' key="metadesc" />
@@ -439,7 +440,7 @@ const MetaData = () => {
                             dangerouslySetInnerHTML={{ __html: JSON.stringify(schemacon) }}
                         />
                     </Head>
-                ) : PagePath === '/5-must-have-development-skills-for-a-mobile-app-developer' ? (
+                ) : PagePath == '/5-must-have-development-skills-for-a-mobile-app-developer' ? (
                     <Head>
                         <title>5 Must-Have Skills for a Mobile App Developer</title>
                         <meta name="description" content='Mobile app developers should possess certain skills that make them stand out from the rest. Here are 5 must-have skills that an app developer needs to consider.' key="metadesc" />
@@ -452,7 +453,7 @@ const MetaData = () => {
                             dangerouslySetInnerHTML={{ __html: JSON.stringify(schemacon1) }}
                         />
                     </Head>
-                ) : PagePath === '/a-comprehensive-guide-on-how-to-choose-the-right-mobile-app-development-company' ? (
+                ) : PagePath == '/a-comprehensive-guide-on-how-to-choose-the-right-mobile-app-development-company' ? (
                     <Head>
                         <title>A Guide to Choosing The Right Mobile App Development Company</title>
                         <meta name="description" content='What to Consider in a Mobile App Development Company? Read and find out what you need to know about choosing the right mobile app company for your business.' key="metadesc" />
@@ -465,7 +466,7 @@ const MetaData = () => {
                             dangerouslySetInnerHTML={{ __html: JSON.stringify(schemacon2) }}
                         />
                     </Head>
-                ) : PagePath === '/7-factors-affecting-mobile-app-development-cost' ? (
+                ) : PagePath == '/7-factors-affecting-mobile-app-development-cost' ? (
                     <Head>
                         <title>7 Factors Affecting Mobile App Development Cost</title>
                         <meta name="description" content='There are numerous factors impacting the development cost of your mobile app. We have listed 7 factors that affect the cost of app development for your business. Read more!' key="metadesc" />
@@ -478,7 +479,7 @@ const MetaData = () => {
                             dangerouslySetInnerHTML={{ __html: JSON.stringify(schemacon3) }}
                         />
                     </Head>
-                ) : PagePath === '/7-trends-adopted-by-leading-mobile-app-development-companies' ? (
+                ) : PagePath == '/7-trends-adopted-by-leading-mobile-app-development-companies' ? (
                     <Head>
                         <title>7 Trends Adopted by Leading Mobile App Development Companies</title>
                         <meta name="description" content='Stay informed and adapt to these mobile app development trends to provide innovative solutions to your users and remain competitive in the ever-changing mobile app development industry.' key="metadesc" />
@@ -491,7 +492,7 @@ const MetaData = () => {
                             dangerouslySetInnerHTML={{ __html: JSON.stringify(schematrands) }}
                         />
                     </Head>
-                ) : PagePath === '/choosing-the-right-technologies-for-top-mobile-app-development' ? (
+                ) : PagePath == '/choosing-the-right-technologies-for-top-mobile-app-development' ? (
                     <Head>
                         <title>Choosing the Right Technologies for Mobile App Development</title>
                         <meta name="description" content='Choosing the right technologies for mobile app development is important for the success of your project. Explore the most popular technologies to help you create a successful mobile app.' key="metadesc" />
@@ -504,7 +505,7 @@ const MetaData = () => {
                             dangerouslySetInnerHTML={{ __html: JSON.stringify(schematrands1) }}
                         />
                     </Head>
-                ) : PagePath === '/key-features-of-a-successful-mobile-app' ? (
+                ) : PagePath == '/key-features-of-a-successful-mobile-app' ? (
                     <Head>
                         <title>Key Features of a Successful Mobile App: A Guide</title>
                         <meta name="description" content="If you're planning to develop a mobile app in 2024, it's important to understand the key features that will make your app successful. Here are some of the things you should know about mobile app development." key="metadesc" />
@@ -517,7 +518,7 @@ const MetaData = () => {
                             dangerouslySetInnerHTML={{ __html: JSON.stringify(schematrands2) }}
                         />
                     </Head>
-                ) : PagePath === '/the-role-of-artificial-intelligence-in-mobile-app-development' ? (
+                ) : PagePath == '/the-role-of-artificial-intelligence-in-mobile-app-development' ? (
                     <Head>
                         <title>The Role of Artificial Intelligence in Mobile App Development</title>
                         <meta name="description" content="Artificial intelligence has become the new trend in the mobile app development industry. Here is the role that AI plays in building a successful mobile app." key="metadesc" />
@@ -530,7 +531,7 @@ const MetaData = () => {
                             dangerouslySetInnerHTML={{ __html: JSON.stringify(schematrands3) }}
                         />
                     </Head>
-                ) : PagePath === '/mobile-app-development-lifecycle' ? (
+                ) : PagePath == '/mobile-app-development-lifecycle' ? (
                     <Head>
                         <title>What Does The Top Mobile App Development Lifecycle Look Like?</title>
                         <meta name="description" content="The mobile app development lifecycle is a process that involves various stages from idea conception to app deployment. Discover the best practices for successful mobile app development." key="metadesc" />
@@ -543,7 +544,7 @@ const MetaData = () => {
                             dangerouslySetInnerHTML={{ __html: JSON.stringify(schematrands4) }}
                         />
                     </Head>
-                ) : PagePath === '/8-design-principles-2d-game-developers-follow' ? (
+                ) : PagePath == '/8-design-principles-2d-game-developers-follow' ? (
                     <Head>
                         <title>8 Design Principles Top 2D Game Developers Follow </title>
                         <meta name="description" content="The design of 2D games determine if users would love the game or not. Here are eight design principles 2D game developers follow to create a great user experience." key="metadesc" />
@@ -556,7 +557,7 @@ const MetaData = () => {
                             dangerouslySetInnerHTML={{ __html: JSON.stringify(schemagame) }}
                         />
                     </Head>
-                ) : PagePath === '/9-common-challenges-faced-by-2d-game-developers' ? (
+                ) : PagePath == '/9-common-challenges-faced-by-2d-game-developers' ? (
                     <Head>
                         <title>9 Common Challenges Faced by 2D Game Developers  </title>
                         <meta name="description" content="Discover the 9 common challenges that 2D game developers face while developing a 2D game. Learn how to overcome these challenges with various strategies." key="metadesc" />
@@ -569,7 +570,7 @@ const MetaData = () => {
                             dangerouslySetInnerHTML={{ __html: JSON.stringify(schemacommon) }}
                         />
                     </Head>
-                ) : PagePath === '/2d-games-development-strategies' ? (
+                ) : PagePath == '/2d-games-development-strategies' ? (
                     <Head>
                         <title>7 Strategies By 2D Game Development Company For Bug-Free Games  </title>
                         <meta name="description" content="Discover the different testing and maintenance strategies utilized by a 2D game development company to ensure a smooth gaming experience." key="metadesc" />
@@ -582,7 +583,7 @@ const MetaData = () => {
                             dangerouslySetInnerHTML={{ __html: JSON.stringify(schematesting) }}
                         />
                     </Head>
-                ) : PagePath === '/7-mobile-app-development-myths' ? (
+                ) : PagePath == '/7-mobile-app-development-myths' ? (
                     <Head>
                         <title>7 Common Mobile App Development Myths   </title>
                         <meta name="description" content="With the increase in mobile apps, there are a lot of myths that are circulating. Here are some of the most common myths about mobile app development you should know." key="metadesc" />
@@ -595,7 +596,7 @@ const MetaData = () => {
                             dangerouslySetInnerHTML={{ __html: JSON.stringify(schemamyths) }}
                         />
                     </Head>
-                ) : PagePath === '/the-ultimate-guide-to-cross-platform-mobile-app-development' ? (
+                ) : PagePath == '/the-ultimate-guide-to-cross-platform-mobile-app-development' ? (
                     <Head>
                         <title>The Ultimate Guide To Cross-Platform Mobile App Development   </title>
                         <meta name="description" content="Cross-platform helps in developing mobile apps across multiple platforms. Read on to learn more about the Cross-platform mobile app development process." key="metadesc" />
@@ -608,7 +609,7 @@ const MetaData = () => {
                             dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaplatform) }}
                         />
                     </Head>
-                ) : PagePath === '/impact-of-metaverse-on-mobile-app-development' ? (
+                ) : PagePath == '/impact-of-metaverse-on-mobile-app-development' ? (
                     <Head>
                         <title>The Impact of the Metaverse on Mobile App Development</title>
                         <meta name="description" content="Discover the transformative potential of the Metaverse on Mobile App Development. Explore the current trends, future predictions, and possibilities." key="metadesc" />
@@ -621,7 +622,7 @@ const MetaData = () => {
                             dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaimpact) }}
                         />
                     </Head>
-                ) : PagePath === '/best-practices-for-cross-platform-mobile-app-development' ? (
+                ) : PagePath == '/best-practices-for-cross-platform-mobile-app-development' ? (
                     <Head>
                         <title>The Best Practices for Cross-Platform Mobile App Development</title>
                         <meta name="description" content="Discover the latest trends and best practices that can help you create cross-platform mobile apps that are reliable, performant, and user-friendly." key="metadesc" />

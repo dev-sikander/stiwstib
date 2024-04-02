@@ -39,7 +39,6 @@ const Bannerlpfinal = (props) => {
     const [pagenewurl, setPagenewurl] = useState('');
     useEffect(() => {
         const pagenewurl = window.location.href;
-        console.log(pagenewurl);
         setPagenewurl(pagenewurl);
     }, []);
 
@@ -62,7 +61,7 @@ const Bannerlpfinal = (props) => {
         const JSONdata = JSON.stringify(data)
 
         setScore('Sending Data');
-        console.log(JSONdata);
+    
 
 
         fetch('api/emailapi/route', {

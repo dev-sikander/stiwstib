@@ -37,7 +37,6 @@ const Bannerdubai = (props) => {
     const [pagenewurl, setPagenewurl] = useState('');
     useEffect(() => {
         const pagenewurl = window.location.href;
-        console.log(pagenewurl);
         setPagenewurl(pagenewurl);
     }, []);
 
@@ -57,7 +56,7 @@ const Bannerdubai = (props) => {
         const JSONdata = JSON.stringify(data)
 
         setScore('Sending Data');
-        console.log(JSONdata);
+    
 
         fetch('api/emailapidubai/route', {
             method: 'POST',

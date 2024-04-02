@@ -30,7 +30,6 @@ const NewAddress = (props) => {
      const [pagenewurl, setPagenewurl] = useState('');
       useEffect(() => {
         const pagenewurl = window.location.href;
-        console.log(pagenewurl);
         setPagenewurl(pagenewurl);
       }, []);
 
@@ -54,7 +53,7 @@ const NewAddress = (props) => {
         const JSONdata = JSON.stringify(data)
 
         setScore('Sending Data');
-        console.log(JSONdata);
+    
 
 
         fetch('api/sideform/route', {

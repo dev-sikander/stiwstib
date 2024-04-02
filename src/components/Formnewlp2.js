@@ -21,7 +21,6 @@ const Formnewlp = () => {
     const [pagenewurl, setPagenewurl] = useState('');
     useEffect(() => {
         const pagenewurl = window.location.href;
-        console.log(pagenewurl);
         setPagenewurl(pagenewurl);
     }, []);
 
@@ -42,7 +41,7 @@ const Formnewlp = () => {
         }
         const JSONdata = JSON.stringify(data)
         setScore('Sending Data');
-        console.log(JSONdata);
+    
         fetch('api/emailapi/route', {
             method: 'POST',
             headers: {

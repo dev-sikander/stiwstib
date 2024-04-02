@@ -1,7 +1,7 @@
 "use client"
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { useState } from "react";
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from '@/styles/BlogListBody.module.css'
 // 
@@ -11,18 +11,16 @@ import LoadMore from "../components/LoadMore";
 import FeaturedImage from "../components/FeaturedImage";
 //
 import arrow from '/public/images/blogBanners/right-arrow.webp'
-//
-export async function getStaticProps() {
-    const allPosts = await getPostList();
-    return {
-        props: {
-            allPosts: allPosts,
-        },
-    }
-}
 
-const Blogs = ({ allPosts }) => {
-    const [posts, setPosts] = useState(allPosts || { nodes: [] });
+const Blogs = () => {
+    const [posts, setPosts] = useState(false);
+    const handlePost = async () => {
+        const allPosts = await getPostList();
+        setPosts(allPosts);
+    }
+    useEffect(() => {
+        handlePost();
+    }, [])
     return (
         <>
             <main>
@@ -32,7 +30,7 @@ const Blogs = ({ allPosts }) => {
                             <Col lg={9}>
                                 <div className={`${styles.blogCard}`}>
                                     {
-                                        posts.nodes.map((post) => (
+                                        posts && posts.nodes.map((post) => (
                                             <Row key={post.slug} className={`${styles.blogRow} align-items-center mb-0 mb-lg-5`}>
                                                 <Col md={5} className="text-center">
                                                     <FeaturedImage post={post} />
@@ -66,7 +64,7 @@ const Blogs = ({ allPosts }) => {
                                     }
                                 </div>
                                 <div className="pt-lg-0 pt-4 pb-4 text-center">
-                                    <LoadMore posts={posts} setPosts={setPosts} />
+                                    {posts && <LoadMore posts={posts} setPosts={setPosts} />}
                                 </div>
                             </Col>
                             <Col lg={3} className='mb-5 mb-lg-0'>
