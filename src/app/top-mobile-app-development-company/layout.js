@@ -7,13 +7,13 @@ export const metadata = {
   openGraph: {
     title: 'Top Mobile App Development Company | Top Mobile App Developers',
     description: 'BitsWits, A top mobile app development company is your go-to destination for top mobile app developers who can help you transform your ideas into extraordinary mobile experiences.',
-    url: 'https://bitswits.co/top-mobile-app-development-company/',
+    url: '/top-mobile-app-development-company/',
     siteName: 'BitsWits',
     locale: 'en_US',
     type: 'website',
   },
   //===== Canonical =====
-  alternates: { canonical: 'https://bitswits.co/top-mobile-app-development-company/' },
+  alternates: { canonical: '/top-mobile-app-development-company/' },
   //===== GEO Tags =====
   other: {},
 }

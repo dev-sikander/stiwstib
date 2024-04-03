@@ -7,13 +7,13 @@ export const metadata = {
   openGraph: {
     title: 'Custom Web Development - BitsWits',
     description: 'BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications.',
-    url: 'https://bitswits.co/custom-web-development-services/',
+    url: '/custom-web-development-services/',
     siteName: 'BitsWits',
     locale: 'en_US',
     type: 'website',
   },
   //===== Canonical =====
-  alternates: { canonical: 'https://bitswits.co/custom-web-development-services/' },
+  alternates: { canonical: '/custom-web-development-services/' },
   //===== GEO Tags =====
   other: {},
 }

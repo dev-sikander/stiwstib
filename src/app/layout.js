@@ -6,6 +6,7 @@ import Scripts from "./Scripts";
 import ConditionalLayout from "./ConditionalLayout";
 //===== Meta Data =====
 export const metadata = {
+  metadataBase: new URL('https://www.bitswits.co'),
   //===== Meta Tags =====
   title: "App Development Company | Professional App Developers",
   description: "BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications.",
@@ -13,13 +14,13 @@ export const metadata = {
   openGraph: {
     title: "App Development Company | Professional App Developers",
     description: "BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications.",
-    url: 'https://bitswits.co/',
+    url: '/',
     siteName: 'BitsWits',
     locale: 'en_US',
     type: 'website',
   },
   //===== Canonical =====
-  alternates: { canonical: 'https://bitswits.co/' },
+  alternates: { canonical: '/' },
   //===== GEO Tags =====
   other: {},
   //===== Google Varification =====

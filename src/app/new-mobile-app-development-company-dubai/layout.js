@@ -7,13 +7,13 @@ export const metadata = {
   openGraph: {
     title: 'Mobile App Development Company Dubai | BitsWits',
     description: 'Looking for a top-rated web app development company? Our team of skilled web app developers specializes in crafting high-quality and customized web applications.',
-    url: 'https://bitswits.co/new-mobile-app-development-company-dubai/',
+    url: '/new-mobile-app-development-company-dubai/',
     siteName: 'BitsWits',
     locale: 'en_US',
     type: 'website',
   },
   //===== Canonical =====
-  alternates: { canonical: 'https://bitswits.co/new-mobile-app-development-company-dubai/' },
+  alternates: { canonical: '/new-mobile-app-development-company-dubai/' },
   //===== GEO Tags =====
   other: {},
 }

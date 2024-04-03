@@ -145,9 +145,7 @@ const ContactBox = () => {
                                                 <div className={styles.locTxt}>
                                                     <h2 className="font30 font-bold white mb-3 text-center">Middle East</h2>
                                                     <h3 className="font16 font-bold newfycolr mb-0 text-center">SHARJAH</h3>
-                                                    <p className="font15 font-medium white mb-1 text-center">
-                                                        Office #101, 32 Street, Al Mujarrah, Sharjah
-                                                    </p>
+                                                    <Link className='font15 font-medium white mb-1 text-center' href='https://maps.app.goo.gl/ebo8RKEPUPVkDfZu9'>Office #101, 32 Street, Al Mujarrah, Sharjah</Link>
                                                     <Link className='font14 white text-center' href='tel:+971555031266'>+971 555 031266</Link>
                                                 </div>
                                                 <div className={styles.locImg}>
@@ -169,9 +167,7 @@ const ContactBox = () => {
                                                     </div>
 
                                                     <h3 className="font16 font-bold newfycolr mb-0 text-center">PAKISTAN</h3>
-                                                    <p className="font13 font-medium white text-center mb-1">
-                                                        12th Floor Caesar's Tower, Karachi, Pakistan
-                                                    </p>
+                                                    <Link className='font13 font-medium white text-center mb-1' href='https://maps.app.goo.gl/rnCBvBgv9SdWXUHL7'>12th Floor Caesar's Tower, Karachi, Pakistan</Link>
                                                     <Link className='font14 white text-center' href='tel:+923468280101'>+92 346 828 0101</Link>
                                                     <div className={`${styles.locImg} ${styles.asiaImg}`}>
                                                         <Image src={pakistan} alt='Location' className='img-fluid' />

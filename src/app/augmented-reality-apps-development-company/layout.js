@@ -7,13 +7,13 @@ export const metadata = {
   openGraph: {
     title: 'Augmented Reality Apps Development Company | AR App Developers',
     description: 'Our augmented reality apps development company is your one-stop shop for creating immersive AR experiences. We have a team of expert AR app developers to bring your ideas to life.',
-    url: 'https://bitswits.co/augmented-reality-apps-development-company/',
+    url: '/augmented-reality-apps-development-company/',
     siteName: 'BitsWits',
     locale: 'en_US',
     type: 'website',
   },
   //===== Canonical =====
-  alternates: { canonical: 'https://bitswits.co/augmented-reality-apps-development-company/' },
+  alternates: { canonical: '/augmented-reality-apps-development-company/' },
   //===== GEO Tags =====
   other: {},
 }

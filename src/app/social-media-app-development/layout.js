@@ -7,13 +7,13 @@ export const metadata = {
   openGraph: {
     title: 'Social Media App Development Company | Social Media App Developers',
     description: 'Experience the epitome of social media innovation with our top-notch app development company, delivering exceptional results for businesses worldwide.',
-    url: 'https://bitswits.co/social-media-app-development/',
+    url: '/social-media-app-development/',
     siteName: 'BitsWits',
     locale: 'en_US',
     type: 'website',
   },
   //===== Canonical =====
-  alternates: { canonical: 'https://bitswits.co/social-media-app-development/' },
+  alternates: { canonical: '/social-media-app-development/' },
   //===== GEO Tags =====
   other: {},
 }

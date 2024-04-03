@@ -7,13 +7,13 @@ export const metadata = {
   openGraph: {
     title: '2D Game Development Company | 2D Game Developers',
     description: 'Take your gaming experience to the next level with our award-winning 2D game developers! We craft innovative games with superior graphics, sounds, and controls.',
-    url: 'https://bitswits.co/2d-game-development-company/',
+    url: '/2d-game-development-company/',
     siteName: 'BitsWits',
     locale: 'en_US',
     type: 'website',
   },
   //===== Canonical =====
-  alternates: { canonical: 'https://bitswits.co/2d-game-development-company/' },
+  alternates: { canonical: '/2d-game-development-company/' },
   //===== GEO Tags =====
   other: {},
 }

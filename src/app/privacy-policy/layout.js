@@ -7,13 +7,13 @@ export const metadata = {
   openGraph: {
     title: 'Privacy Policy - BitsWits',
     description: 'BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications.',
-    url: 'https://bitswits.co/privacy-policy/',
+    url: '/privacy-policy/',
     siteName: 'BitsWits',
     locale: 'en_US',
     type: 'website',
   },
   //===== Canonical =====
-  alternates: { canonical: 'https://bitswits.co/privacy-policy/' },
+  alternates: { canonical: '/privacy-policy/' },
   //===== GEO Tags =====
   other: {},
 }

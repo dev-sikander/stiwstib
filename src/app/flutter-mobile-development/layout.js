@@ -7,13 +7,13 @@ export const metadata = {
   openGraph: {
     title: 'Flutter Apps Development Company | Flutter App Developers',
     description: 'Hire the best Flutter app developers to create high-quality and seamless mobile applications. BitsWits is a leading Flutter app development company in USA.',
-    url: 'https://bitswits.co/flutter-mobile-development/',
+    url: '/flutter-mobile-development/',
     siteName: 'BitsWits',
     locale: 'en_US',
     type: 'website',
   },
   //===== Canonical =====
-  alternates: { canonical: 'https://bitswits.co/flutter-mobile-development/' },
+  alternates: { canonical: '/flutter-mobile-development/' },
   //===== GEO Tags =====
   other: {},
 }

@@ -7,13 +7,13 @@ export const metadata = {
   openGraph: {
     title: 'Hire A Professional Hybrid App Developers',
     description: 'BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications.',
-    url: 'https://bitswits.co/hybrid-developer/',
+    url: '/hybrid-developer/',
     siteName: 'BitsWits',
     locale: 'en_US',
     type: 'website',
   },
   //===== Canonical =====
-  alternates: { canonical: 'https://bitswits.co/hybrid-developer/' },
+  alternates: { canonical: '/hybrid-developer/' },
   //===== GEO Tags =====
   other: {},
 }

@@ -7,13 +7,13 @@ export const metadata = {
   openGraph: {
     title: 'Hybrid Mobile Apps Development Company | Hybrid App Developers',
     description: 'Hire the best Hybrid app developers at BitsWits, specializing in innovative solutions and technology for all devices.',
-    url: 'https://bitswits.co/hybrid-mobile-apps-development/',
+    url: '/hybrid-mobile-apps-development/',
     siteName: 'BitsWits',
     locale: 'en_US',
     type: 'website',
   },
   //===== Canonical =====
-  alternates: { canonical: 'https://bitswits.co/hybrid-mobile-apps-development/' },
+  alternates: { canonical: '/hybrid-mobile-apps-development/' },
   //===== GEO Tags =====
   other: {},
 }

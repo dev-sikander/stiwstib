@@ -7,13 +7,13 @@ export const metadata = {
   openGraph: {
     title: 'Cross Platform App Development Company | Cross Platform App Developers',
     description: 'iscover how BitsWits, a leading Cross Platform app development company, helps businesses build high-quality cross platform apps to reach users across iOS, Android, and web.',
-    url: 'https://bitswits.co/cross-platform-app-development/',
+    url: '/cross-platform-app-development/',
     siteName: 'BitsWits',
     locale: 'en_US',
     type: 'website',
   },
   //===== Canonical =====
-  alternates: { canonical: 'https://bitswits.co/cross-platform-app-development/' },
+  alternates: { canonical: '/cross-platform-app-development/' },
   //===== GEO Tags =====
   other: {},
 }

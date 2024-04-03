@@ -7,13 +7,13 @@ export const metadata = {
   openGraph: {
     title: 'Terms & Conditions - BitsWits',
     description: 'BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications.',
-    url: 'https://bitswits.co/term-and-condition/',
+    url: '/term-and-condition/',
     siteName: 'BitsWits',
     locale: 'en_US',
     type: 'website',
   },
   //===== Canonical =====
-  alternates: { canonical: 'https://bitswits.co/term-and-condition/' },
+  alternates: { canonical: '/term-and-condition/' },
   //===== GEO Tags =====
   other: {},
 }

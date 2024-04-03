@@ -7,13 +7,13 @@ export const metadata = {
   openGraph: {
     title: 'Android Apps Development Company | Android App Developers',
     description: 'Looking for a reliable Android Apps Development company? Hire skilled Android App Developers to create high-quality, user-friendly mobile applications for your business needs.',
-    url: 'https://bitswits.co/android-application-development/',
+    url: '/android-application-development/',
     siteName: 'BitsWits',
     locale: 'en_US',
     type: 'website',
   },
   //===== Canonical =====
-  alternates: { canonical: 'https://bitswits.co/android-application-development/' },
+  alternates: { canonical: '/android-application-development/' },
   //===== GEO Tags =====
   other: {},
 }

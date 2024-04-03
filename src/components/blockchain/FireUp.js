@@ -84,7 +84,7 @@ const FireUp = (props) => {
                                             <h3 className='f40 fw700 text-white mb-4 mt-4'>UAE</h3>
                                             <div className='mb-4'>
                                                 <h4 className='fw500 f24 text-white'>SHARJAH</h4>
-                                                <p className='text-white'>Office #101, 32 Street, Al Mujarrah, Sharjah.</p>
+                                                <Link className='text-white' href='https://maps.app.goo.gl/ebo8RKEPUPVkDfZu9'>Office #101, 32 Street, Al Mujarrah, Sharjah</Link>
                                                 <p className='mt-4'> <Link className='text-white' href="tel:8335006007">+1 833 500 6007</Link></p>
                                                 <p><Link className='text-white' href="tel:+971555031266">+97 155 503 1266</Link></p>
                                             </div>
@@ -117,7 +117,7 @@ const FireUp = (props) => {
                                             <h3 className='f40 fw700 text-white mb-4 mt-4'>PAKISTAN</h3>
                                             <div className='mb-4'>
                                                 <h4 className='fw500 f24 text-white'>KARACHI</h4>
-                                                <p className='text-white'>12th Floor Caesar's Tower, Karachi, Pakistan.</p>
+                                                <Link className='text-white' href='https://maps.app.goo.gl/rnCBvBgv9SdWXUHL7'>12th Floor Caesar's Tower, Karachi, Pakistan</Link>
                                                 <p className='mt-4'> <Link className='text-white' href="tel:+923468280101">+92 346 828 0101</Link></p>
                                                 <p><Link className='text-white' href="3123795987">+92 312 379 5987</Link></p>
                                             </div>

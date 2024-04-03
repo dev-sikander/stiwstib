@@ -7,13 +7,13 @@ export const metadata = {
   openGraph: {
     title: 'Top Mobile Application Developers | Top mobile app developers',
     description: 'From ideation to launch, our top mobile app developers provides end-to-end services that ensure your app is a success.',
-    url: 'https://bitswits.co/top-mobile-app-developers/',
+    url: '/top-mobile-app-developers/',
     siteName: 'BitsWits',
     locale: 'en_US',
     type: 'website',
   },
   //===== Canonical =====
-  alternates: { canonical: 'https://bitswits.co/top-mobile-app-developers/' },
+  alternates: { canonical: '/top-mobile-app-developers/' },
   //===== GEO Tags =====
   other: {},
 }

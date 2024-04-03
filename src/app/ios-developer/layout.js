@@ -7,13 +7,13 @@ export const metadata = {
   openGraph: {
     title: 'Hire A Professional iOS App Developers',
     description: 'BitsWits is a leading app development company with a team of expert app developers that specialize in creating innovative and customized mobile applications.',
-    url: 'https://bitswits.co/ios-developer/',
+    url: '/ios-developer/',
     siteName: 'BitsWits',
     locale: 'en_US',
     type: 'website',
   },
   //===== Canonical =====
-  alternates: { canonical: 'https://bitswits.co/ios-developer/' },
+  alternates: { canonical: '/ios-developer/' },
   //===== GEO Tags =====
   other: {},
 }

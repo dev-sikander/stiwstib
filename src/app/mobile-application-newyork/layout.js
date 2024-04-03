@@ -7,13 +7,13 @@ export const metadata = {
   openGraph: {
     title: 'The Professional Mobile App Development Company NewYork - BitsWits.',
     description: 'From iOS to Android and beyond BitsWits is a team of highly skilled and experienced mobile app developers who specialize in creating innovative mobile solutions.',
-    url: 'https://bitswits.co/mobile-application-newyork/',
+    url: '/mobile-application-newyork/',
     siteName: 'BitsWits',
     locale: 'en_US',
     type: 'website',
   },
   //===== Canonical =====
-  alternates: { canonical: 'https://bitswits.co/mobile-application-newyork/' },
+  alternates: { canonical: '/mobile-application-newyork/' },
   //===== GEO Tags =====
   other: {},
 }

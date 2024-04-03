@@ -76,9 +76,7 @@ const HomeLocationlp = () => {
                                                         <p className="f-18 f-700 f-montserrat mb-1 f-uppercase text-white">
                                                             Sharjah
                                                         </p>
-                                                        <p className="f-14 f-500 f-montserrat white mb-0">
-                                                            Office #101, 32 Street, Al Mujarrah, Sharjah
-                                                        </p>
+                                                        <Link className='f-14 f-500 f-montserrat white mb-1 d-block' href='https://maps.app.goo.gl/ebo8RKEPUPVkDfZu9'>Office #101, 32 Street, Al Mujarrah, Sharjah</Link>
                                                         <Link className="f-16 f-500 white"
                                                             href="tel:+971555031266">
                                                             +971 555 031266
@@ -112,9 +110,7 @@ const HomeLocationlp = () => {
                                                         <p className="f-18 f-700 f-montserrat mb-1 f-uppercase text-white">
                                                             Karachi
                                                         </p>
-                                                        <p className="f-14 f-500 f-montserrat white mb-0">
-                                                            12th Floor Caesar's Tower, Karachi, Pakistan
-                                                        </p>
+                                                        <Link className='f-14 f-500 f-montserrat white mb-1 d-block' href='https://maps.app.goo.gl/rnCBvBgv9SdWXUHL7'>12th Floor Caesar's Tower, Karachi, Pakistan</Link>
                                                         <Link className="f-16 f-500 white" href="tel:923468280101">
                                                             +92 346 828 0101
                                                         </Link>
@@ -150,17 +146,12 @@ const HomeLocationlp = () => {
 
                                                         <div className={`${styles.detail}`}>
                                                             <p className="f-18 f-700 f-montserrat mb-1 f-uppercase text-white">
-                                                                California
+                                                                HOUSTON
                                                             </p>
-                                                            <p className="f-14 f-500 f-montserrat white mb-0">350 South Grand Avenue, Los Angeles,
-                                                                CA 90071</p>
+                                                            <Link className='f-14 f-500 f-montserrat white mb-1 d-block' href='https://maps.app.goo.gl/oWks8ofWd5X8qVZs9'>Williams Tower, 41st Floor 2800 Post Oak Blvd, Suite 4100 Houston, TX 77056</Link>
                                                             <Link className="f-16 f-500 white"
-                                                                href="tel:3123795987">
-                                                                +1 312 379 5987
-                                                            </Link><br />
-                                                            <Link className="f-16 f-500 white"
-                                                                href="tel:8335006007">
-                                                                +1 833 500 6007
+                                                                href="tel:+17135657656">
+                                                                +1 713 565 7656
                                                             </Link>
                                                         </div>
                                                     </div>
@@ -187,9 +178,7 @@ const HomeLocationlp = () => {
                                                             <p className="f-18 f-700 f-montserrat mb-1 f-uppercase text-white">
                                                                 Sharjah
                                                             </p>
-                                                            <p className="f-14 f-500 f-montserrat white mb-0">
-                                                                Office #101, 32 Street, Al Mujarrah, Sharjah
-                                                            </p>
+                                                            <Link className='f-14 f-500 f-montserrat white mb-1 d-block' href='https://maps.app.goo.gl/ebo8RKEPUPVkDfZu9'>Office #101, 32 Street, Al Mujarrah, Sharjah</Link>
                                                             <Link className="f-16 f-500 white"
                                                                 href="tel:+971555031266">
                                                                 +97 155 503 1266
@@ -205,9 +194,7 @@ const HomeLocationlp = () => {
                                                             <p className="f-18 f-700 f-montserrat mb-1 f-uppercase text-white">
                                                                 Karachi
                                                             </p>
-                                                            <p className="f-14 f-500 f-montserrat white mb-0">
-                                                                12th Floor Caesar's Tower, Karachi, Pakistan
-                                                            </p>
+                                                            <Link className='f-14 f-500 f-montserrat white mb-1 d-block' href='https://maps.app.goo.gl/rnCBvBgv9SdWXUHL7'>12th Floor Caesar's Tower, Karachi, Pakistan</Link>
                                                             <Link className="f-16 f-500 white" href="tel:923468280101">
                                                                 +92 346 828 0101
                                                             </Link>
